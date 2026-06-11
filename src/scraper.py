@@ -7,7 +7,7 @@ import os
 
 os.makedirs("data/raw/scraped", exist_ok=True)
 
-output_file = "data/raw/scraped/alodokter.json"
+output_file = "data/raw/scraped/alodokter2.json"
 
 if os.path.exists(output_file):
     with open(output_file, "r", encoding="utf-8") as f:
@@ -48,7 +48,7 @@ def get_complaint_text(url):
 
 results = []
 
-for page in range(1, 51):
+for page in range(52, 71):
     links = get_discussion_links(page)
     print(f"Page {page}: found {len(links)} links")
     if not links:
