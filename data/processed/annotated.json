@@ -1,0 +1,3658 @@
+[
+  {
+    "text": "Halo Dokter, saya mau tanya soal vaksin BCG untuk anak. Anak saya baru lahir beberapa hari lalu, dan saya masih bingung kapan waktu yang paling tepat untuk pemberian vaksin BCG (TBC). Apakah harus langsung setelah lahir, atau bisa ditunda? Mohon penjelasannya, ya Dok.",
+    "annotations": [
+      {
+        "token": "vaksin BCG",
+        "label": "OBAT"
+      },
+      {
+        "token": "TBC",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kapan-bayi-sebaiknya-mendapat-vaksin-bcg-"
+  },
+  {
+    "text": "Halo Dok, saya perempuan usia 19 tahun, mau tanya soal kaki datar. Sejak kecil, saya perhatikan telapak kaki saya tidak punya lengkungan seperti orang kebanyakan, jadi terlihat rata. Kadang kalau jalan jauh atau berdiri lama, kaki saya cepat pegal dan sakit. Apakah kondisi kaki datar ini perlu penanganan khusus? Apakah bisa menyebabkan masalah jangka panjang?",
+    "annotations": [
+      {
+        "token": "kaki datar",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "kaki",
+        "label": "LOKASI"
+      },
+      {
+        "token": "pegal",
+        "label": "GEJALA"
+      },
+      {
+        "token": "sakit",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kaki-datar-bikin-cepat-pegal--apa-solusinya-"
+  },
+  {
+    "text": "Alo, Dok, selamat siang. Saya laki-laki usia 23 tahun, mengalami kuku kaki tumbuh ke dalam setelah potong kuku agak pendek. Sekarang, jari saya jadi sakit kalau dipakai jalan dan tampak ada nanah sedikit. Apa penyebab utama kuku bisa tumbuh ke dalam setelah dipotong, dan bagaimana cara mengatasinya agar tidak makin parah?",
+    "annotations": [
+      {
+        "token": "kuku kaki tumbuh ke dalam",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "sakit",
+        "label": "GEJALA"
+      },
+      {
+        "token": "jari",
+        "label": "LOKASI"
+      },
+      {
+        "token": "nanah",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/mengapa-kuku-kaki-bisa-tumbuh-ke-dalam-setelah-dipotong-dan"
+  },
+  {
+    "text": "Hai, Dok, mau tanya soal cantengan. Saya ibu rumah tangga usia 32 tahun, saya sedang mengalami cantengan di jari kaki dan rasanya lumayan nyeri, kadang juga bengkak. Saya ingin tahu, adakah cara mengatasi cantengan secara alami di rumah tanpa harus ke dokter? Tips atau bahan alami apa saja yang bisa membantu meredakan nyeri dan bengkaknya?",
+    "annotations": [
+      {
+        "token": "cantengan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "jari kaki",
+        "label": "LOKASI"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bengkak",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-alami-mengatasi-cantengan-di-rumah-"
+  },
+  {
+    "text": "Alo, selamat siang, Dokter, saya mau tanya. Kakak saya usia 27 tahun baru saja didiagnosis infeksi aliran darah setelah mengalami demam, menggigil, dan tekanan darahnya turun. Apakah infeksi ini bisa menular ke anggota keluarga lain? Bagaimana cara pencegahan dan penanganannya?",
+    "annotations": [
+      {
+        "token": "infeksi aliran darah",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "demam",
+        "label": "GEJALA"
+      },
+      {
+        "token": "menggigil",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-infeksi-aliran-darah-bisa-menular-dan-apa-penanganannya-"
+  },
+  {
+    "text": "Mau tanya, ya Dok. Saya perempuan usia 29 tahun, sedang menjalani program kehamilan dan dokter menyarankan pemeriksaan HSG (histerosalpingografi) untuk deteksi kelainan bentuk rahim. Bisa dijelaskan bagaimana prosedur HSG dilakukan, apa saja yang bisa dideteksi dari HSG, dan apakah pemeriksaan ini aman serta menimbulkan rasa sakit?",
+    "annotations": [
+      {
+        "token": "HSG (histerosalpingografi)",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "kelainan bentuk rahim",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "rasa sakit",
+        "label": "GEJALA"
+      },
+      {
+        "token": "rahim",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-prosedur-hsg-untuk-deteksi-kelainan-bentuk-rahim-"
+  },
+  {
+    "text": "Alo, selamat siang, Dok. Saya perempuan usia 25 tahun, setiap kali saya mencukur bulu di paha, selalu muncul bintik-bintik merah yang terasa gatal dan kadang perih. Apakah ini yang disebut dengan folikulitis? Bagaimana cara mencegah dan mengatasi bintik-bintik merah serta gatal di paha setelah mencukur bulu, supaya kulit tetap sehat?",
+    "annotations": [
+      {
+        "token": "bintik-bintik merah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gatal",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perih",
+        "label": "GEJALA"
+      },
+      {
+        "token": "paha",
+        "label": "LOKASI"
+      },
+      {
+        "token": "folikulitis",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bintik-bintik-merah-dan-gatal-di-paha-setelah-mencukur-bulu--apakah"
+  },
+  {
+    "text": "Halo, Dok, saya perempuan usia 20 tahun, punya kulit sensitif dan baru saja mengalami sunburn setelah beraktivitas di luar ruangan. Kulit jadi kemerahan, perih, dan agak bengkak. Bagaimana penanganan sunburn yang aman untuk kulit sensitif agar cepat pulih dan tidak memperparah iritasi? Apakah ada bahan alami atau obat tertentu yang sebaiknya dihindari?",
+    "annotations": [
+      {
+        "token": "kulit sensitif",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "sunburn",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "kemerahan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perih",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bengkak",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kulit",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-sunburn-di-kulit-sensitif-"
+  },
+  {
+    "text": "Hai, Dok, mau tanya. Saya perempuan usia 40 tahun, saya menemukan benjolan kecil berwarna coklat di kulit lengan yang sudah ada beberapa bulan dan tidak hilang-hilang. Dokter menyarankan biopsi untuk memastikan penyebabnya. Bisa dijelaskan bagaimana prosedur biopsi benjolan coklat di kulit dilakukan, apa saja yang perlu dipersiapkan, dan apakah prosesnya sakit?",
+    "annotations": [
+      {
+        "token": "benjolan kecil berwarna coklat",
+        "label": "GEJALA"
+      },
+      {
+        "token": "beberapa bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "kulit lengan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "biopsi",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-prosedur-biopsi-untuk-benjolan-coklat-di-kulit-dan-apa"
+  },
+  {
+    "text": "Selamat siang, Dok, semoga sehat, mau tanya soal tes untuk penyakit arteri perifer. Ayah saya usia 52 tahun, sering mengalami nyeri dan kesemutan di kaki saat berjalan, dan dokter menyarankan tes ABI karena ada dugaan gangguan arteri perifer di kaki. Bisa dijelaskan apa itu tes ABI, bagaimana prosedurnya, dan apa yang bisa diketahui dari hasil tes ini? Apakah tes ABI aman dan perlu persiapan khusus sebelumnya?",
+    "annotations": [
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kesemutan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "arteri perifer",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "kaki",
+        "label": "LOKASI"
+      },
+      {
+        "token": "tes ABI",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/tes-abi-untuk-deteksi-penyakit-arteri-perifer--bagaimana-prosedur-dan"
+  },
+  {
+    "text": "Hai, Dok, mau konsultasi. Saya laki-laki umur 30 tahun,, sudah beberapa minggu merasakan tangan kiri saya lemah dan kaku setiap pagi saat bangun tidur. Biasanya setelah beberapa jam baru bisa digerakkan normal lagi, tapi kadang juga terasa kesemutan. Apakah kondisi ini berbahaya dan apa penyebab tangan kiri lemah dan kaku di pagi hari? Apakah perlu pemeriksaan lebih lanjut?",
+    "annotations": [
+      {
+        "token": "beberapa minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "tangan kiri",
+        "label": "LOKASI"
+      },
+      {
+        "token": "lemah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kaku",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kesemutan",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/tangan-kiri-kaku-dan-lemah-saat-bangun-tidur--kenapa-ya-"
+  },
+  {
+    "text": "Siang, Dok, mau tanya soal gigi bungsu. Saya laki-laki usia 27 tahun, ada bengkak dan nyeri di sekitar gigi bungsu, terutama di bagian gusi yang tampak merah dan kadang keluar nanah. Apakah ini termasuk infeksi gusi sekitar gigi bungsu? Bagaimana penanganan yang tepat agar infeksi tidak semakin parah dan apa saja tanda bahaya yang harus saya waspadai?",
+    "annotations": [
+      {
+        "token": "bengkak",
+        "label": "GEJALA"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gusi",
+        "label": "LOKASI"
+      },
+      {
+        "token": "gigi bungsu",
+        "label": "LOKASI"
+      },
+      {
+        "token": "infeksi gusi sekitar gigi bungsu",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-infeksi-gusi-di-sekitar-gigi-bungsu-"
+  },
+  {
+    "text": "Halo, Dokter, selamat siang. Saya perempuan usia 32 tahun, didiagnosis hipogonadisme dan disarankan menjalani terapi hormon. Saya ingin tahu, apa saja jenis terapi hormon yang biasanya diberikan untuk hipogonadisme pada wanita? Bagaimana cara kerjanya, dan adakah efek samping yang perlu diwaspadai selama menjalani terapi ini?",
+    "annotations": [
+      {
+        "token": "hipogonadisme",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "terapi hormon",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/terapi-hormon-untuk-wanita-hipogonadisme--apa-saja-jenisnya-"
+  },
+  {
+    "text": "Pagi, Dok, mau tanya soal kalazion. Saya laki-laki usia 26 tahun, punya benjolan kalazion yang cukup besar di kelopak mata sudah beberapa minggu. Saya agak takut kalau harus operasi. Apakah ada cara menghilangkan kalazion besar tanpa operasi? Apa saja perawatan rumahan atau obat yang bisa membantu agar kalazion cepat kempes dan tidak makin membesar?",
+    "annotations": [
+      {
+        "token": "kalazion",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "beberapa minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "kelopak mata",
+        "label": "LOKASI"
+      },
+      {
+        "token": "operasi",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "obat",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kalazion-besar--adakah-solusi-selain-operasi-"
+  },
+  {
+    "text": "Halo, Dokter. Saya laki-laki umur 34 tahun, sudah beberapa bulan mengalami fistula ani dan merasa khawatir jika harus menjalani operasi. Apakah ada cara pengobatan fistula ani tanpa operasi yang benar-benar efektif? Apa saja pilihan terapi non-bedah yang bisa dicoba, dan bagaimana tingkat keberhasilannya?",
+    "annotations": [
+      {
+        "token": "beberapa bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "fistula ani",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "operasi",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/pengobatan-fistula-ani-tanpa-operasi--apa-saja-pilihannya-"
+  },
+  {
+    "text": "Dok, saya sering merasakan nyeri ringan di kedua testis, tapi tidak pernah menemukan benjolan atau perubahan bentuk. Nyeri muncul kadang-kadang, terutama saat stres atau kecapekan. Apa yang harus saya lakukan, Dok?",
+    "annotations": [
+      {
+        "token": "nyeri ringan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kedua testis",
+        "label": "LOKASI"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "stres",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kecapekan",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-yang-menyebabkan-testis-nyeri-tanpa-adanya-benjolan-dan-perubahan"
+  },
+  {
+    "text": "Dok, saya ingin bertanya. Jika saya ingin mencoba kunyit untuk mengatasi sakit maag, lebih baik dikonsumsi dalam bentuk segar, bubuk, atau kapsul? Mana yang paling efektif dan aman untuk lambung?",
+    "annotations": [
+      {
+        "token": "sakit maag",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "lambung",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-konsumsi-kunyit-yang-aman-untuk-sakit-maag-f2d9e3"
+  },
+  {
+    "text": "Siang dok, Saya sedang merawat ayah yang baru saja mengalami stroke. Selain obat dari dokter, bolehkah saya memberikan vitamin asam folat atau B kompleks untuk membantu pemulihan? Apa bedanya asam folat dengan vitamin B lain untuk penderita stroke?",
+    "annotations": [
+      {
+        "token": "stroke",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "obat",
+        "label": "OBAT"
+      },
+      {
+        "token": "asam folat",
+        "label": "OBAT"
+      },
+      {
+        "token": "B kompleks",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bolehkah-penderita-stroke-konsumsi-vitamin-b-kompleks-dan-asam-folat-"
+  },
+  {
+    "text": "Dok, saya sedang hamil dan sering merasa mual serta muntah, tapi juga disertai sensasi panas di dada dan asam di mulut. Bagaimana cara membedakan mual muntah biasa karena hamil dengan gejala GERD? Kapan saya harus periksa ke dokter?",
+    "annotations": [
+      {
+        "token": "hamil",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "mual",
+        "label": "GEJALA"
+      },
+      {
+        "token": "muntah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "sensasi panas di dada",
+        "label": "GEJALA"
+      },
+      {
+        "token": "asam di mulut",
+        "label": "GEJALA"
+      },
+      {
+        "token": "GERD",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-membedakan-morning-sickness-dan-gerd-saat-hamil-"
+  },
+  {
+    "text": "Siang dok, setelah cabut gigi berlubang, saya merasa ada benjolan kecil di leher yang agak sakit saat ditekan. Apakah ini reaksi normal setelah pencabutan gigi atau ada infeksi lanjutan?",
+    "annotations": [
+      {
+        "token": "cabut gigi",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "benjolan kecil",
+        "label": "GEJALA"
+      },
+      {
+        "token": "leher",
+        "label": "LOKASI"
+      },
+      {
+        "token": "sakit",
+        "label": "GEJALA"
+      },
+      {
+        "token": "pencabutan gigi",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "infeksi",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/-apa-yang-harus-dilakukan-jika-muncul-benjolan-leher-setelah-cabut"
+  },
+  {
+    "text": "Siang dok, saya ingin bertanya. Setelah pakai teether, bayi saya kadang jadi lebih tenang dan mau makan. Apakah penggunaan teether bisa membantu nafsu makan bayi saat tumbuh gigi? Apa ada tanda-tanda bayi tidak cocok dengan teether tertentu?",
+    "annotations": [
+      {
+        "token": "tumbuh gigi",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "teether",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/benarkah-teether-dapat-memengaruhi-nafsu-makan-bayi-saat-tumbuh-gigi-"
+  },
+  {
+    "text": "Dok, saya baru hamil 2 bulan dan sering mual kalau makan telur rebus, tapi ingin tetap dapat manfaat proteinnya. Ada tidak cara khusus mengolah atau menyajikan telur supaya tidak bikin mual di awal kehamilan?",
+    "annotations": [
+      {
+        "token": "2 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "mual",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-mual-makan-telur-saat-hamil-"
+  },
+  {
+    "text": "Dok, Ibu saya usia 70 tahun, ingin ikut senam lansia tapi khawatir nyeri sendinya kambuh. Apa ada tips memilih gerakan atau jenis senam yang aman untuk lansia dengan nyeri sendi?",
+    "annotations": [
+      {
+        "token": "nyeri sendi",
+        "label": "GEJALA"
+      },
+      {
+        "token": "nyeri sendi",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-gerakan-senam-yang-cocok-untuk-lansia-dengan-nyeri-sendi-"
+  },
+  {
+    "text": "Selamat siang dokter, saya punya orang tua usia 60 tahun yang sering mengeluh kesemutan dan mudah lupa. Apakah kondisi ini bisa berhubungan dengan kekurangan vitamin B12? Bagaimana cara memastikan apakah benar kekurangan vitamin B12 dan apa langkah pengobatannya?",
+    "annotations": [
+      {
+        "token": "kesemutan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "mudah lupa",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kekurangan vitamin B12",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-kesemutan-pada-lansia-bisa-disebabkan-oleh-kekurangan-vitamin-b12-"
+  },
+  {
+    "text": "Dok, Ayah saya usia 72 tahun sudah rutin minum obat hipertensi setiap hari. Belakangan ini beliau mengeluh sering buang air kecil dan kadang kakinya bengkak. Apakah keluhan ini bisa disebabkan oleh obat darah tinggi yang diminum?",
+    "annotations": [
+      {
+        "token": "buang air kecil",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kakinya bengkak",
+        "label": "GEJALA"
+      },
+      {
+        "token": "obat hipertensi",
+        "label": "OBAT"
+      },
+      {
+        "token": "darah tinggi",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-kaki-bengkak-setelah-minum-obat-hipertensi-"
+  },
+  {
+    "text": "Selamat siang dok, saya sering mengalami pilek yang cukup lama setiap kali masuk musim panas, bahkan sampai lebih dari seminggu. Hidung tersumbat dan bersin-bersin, padahal tidak kena AC terus-menerus. Apa yang harus saya lakukan supaya pilek cepat sembuh dan tidak kambuh lagi?",
+    "annotations": [
+      {
+        "token": "pilek",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "lebih dari seminggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "hidung",
+        "label": "LOKASI"
+      },
+      {
+        "token": "tersumbat",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bersin-bersin",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-yang-menyebabkan-pilek-saat-musim-panas-"
+  },
+  {
+    "text": "Siang dokter, ibu saya usia 65 tahun sering mengeluh sulit BAB, kadang sampai 4 hari baru bisa. Beliau juga punya riwayat diabetes dan jarang olahraga. Apakah konstipasi ini ada kaitannya dengan penyakitnya?",
+    "annotations": [
+      {
+        "token": "sulit BAB",
+        "label": "GEJALA"
+      },
+      {
+        "token": "4 hari",
+        "label": "DURASI"
+      },
+      {
+        "token": "diabetes",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "konstipasi",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-konstipasi-pada-lansia-bisa-berkaitan-dengan-diabetes-"
+  },
+  {
+    "text": "Siang, saya mau konsultasi, dok. Sudah seminggu ini setiap saya kerja di ruangan kantor yang tertutup, mata saya sering berair tanpa sebab jelas. Saya tidak pakai lensa kontak dan tidak merasa gatal. Kondisi ini bikin saya kurang nyaman saat bekerja. Bagaimana cara mengatasinya, ya?",
+    "annotations": [
+      {
+        "token": "seminggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "mata",
+        "label": "LOKASI"
+      },
+      {
+        "token": "berair",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gatal",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-mata-berair-di-ruang-kerja-tertutup-"
+  },
+  {
+    "text": "Dok, Saya pernah dengar kalau asam folat juga penting untuk kesehatan otak. Apakah benar asam folat bisa membantu memperbaiki daya ingat atau fungsi kognitif penderita stroke? Seberapa efektif asam folat untuk pemulihan otak setelah stroke?",
+    "annotations": [
+      {
+        "token": "asam folat",
+        "label": "OBAT"
+      },
+      {
+        "token": "otak",
+        "label": "LOKASI"
+      },
+      {
+        "token": "stroke",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "daya ingat",
+        "label": "GEJALA"
+      },
+      {
+        "token": "fungsi kognitif",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/benarkah-asam-folat-dapat-membantu-daya-ingat-penderita-stroke-"
+  },
+  {
+    "text": "Dok, saya sedang hamil 8 bulan dan sering mengalami asam lambung naik, kadang sampai dada terasa sesak dan sulit bernapas. Kalau duduk atau tidur, keluhannya makin parah. Apakah kondisi ini berbahaya untuk janin? Apa yang bisa saya lakukan agar gejalanya berkurang?",
+    "annotations": [
+      {
+        "token": "hamil",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "8 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "asam lambung naik",
+        "label": "GEJALA"
+      },
+      {
+        "token": "dada",
+        "label": "LOKASI"
+      },
+      {
+        "token": "sesak",
+        "label": "GEJALA"
+      },
+      {
+        "token": "sulit bernapas",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/asam-lambung-naik-saat-hamil-8-bulan--apakah-berbahaya-untuk"
+  },
+  {
+    "text": "Selamat siang, Dok. Saya sedang mencari alternatif alami untuk mengontrol kolesterol tinggi dan banyak yang menyarankan daun salam. Apakah ada penelitian yang membuktikan efektivitas daun salam untuk menurunkan kolesterol? Bagaimana cara aman mengonsumsinya agar tidak berbahaya bagi tubuh?",
+    "annotations": [
+      {
+        "token": "kolesterol tinggi",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "daun salam",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/adakah-bukti-ilmiah-bahwa-daun-salam-bisa-untuk-menurunkan-kolesterol"
+  },
+  {
+    "text": "Halo, Dokter. Saya laki-laki usia 46 tahun, sudah lama mengalami plantar fasciitis dan berbagai terapi belum terlalu membantu. Saya dengar ada metode suntik botox untuk plantar fasciitis. Sebenarnya, apa manfaat dan risiko suntik botox untuk plantar fasciitis? Apakah prosedur ini aman dan efektif untuk mengurangi nyeri tumit?",
+    "annotations": [
+      {
+        "token": "plantar fasciitis",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "suntik botox",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "nyeri tumit",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-suntik-botox-efektif-untuk-plantar-fasciitis-"
+  },
+  {
+    "text": "Dok, mau tanya, saya pernah dengar kalau psikolog bisa membantu mengatasi disfungsi seksual pada pria maupun wanita. Sebenarnya, apa saja peran psikolog dalam menangani disfungsi seksual? Apakah konsultasi ke psikolog bisa benar-benar membantu, dan bagaimana proses terapinya?",
+    "annotations": [
+      {
+        "token": "disfungsi seksual",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "psikolog",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-peran-psikolog-dalam-menangani-disfungsi-seksual-"
+  },
+  {
+    "text": "Selamat siang, Dok, saya perempuan usia 36 tahun, baru menjalani operasi endometriosis sekitar dua minggu lalu. Sekarang saya masih sering merasakan nyeri di perut bagian bawah, kadang terasa menusuk dan kadang hanya pegal saja. Apakah nyeri perut bawah setelah operasi endometriosis ini normal? Kapan saya perlu khawatir dan memeriksakan diri kembali ke dokter?",
+    "annotations": [
+      {
+        "token": "dua minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "endometriosis",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "operasi",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perut bagian bawah",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-nyeri-perut-bawah-setelah-operasi-endometriosis-normal-"
+  },
+  {
+    "text": "Hi Dok, saya perempuan usia 20 tahun, sedang mengalami dermatitis perioral di area sekitar mulut. Saya bingung memilih produk skincare yang aman digunakan. Apa saja jenis skincare yang sebaiknya dipakai dan mana yang perlu dihindari saat dermatitis perioral? Mohon rekomendasi dan penjelasannya, Dok.",
+    "annotations": [
+      {
+        "token": "dermatitis perioral",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "sekitar mulut",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/produk-skincare-apa-yang-aman-untuk-dermatitis-perioral-"
+  },
+  {
+    "text": "Halo, Dok, saya laki-laki usia 45 tahun, sering mengalami asam urat kambuh, terutama setelah makan-makanan tertentu. Saya ingin tahu, makanan apa saja yang bisa memicu asam urat kambuh? Apakah benar seafood, jeroan, dan kacang-kacangan harus dihindari? Mohon penjelasan jenis makanan yang sebaiknya dibatasi agar asam urat tidak sering kambuh.",
+    "annotations": [
+      {
+        "token": "asam urat",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "asam urat",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/makanan-apa-yang-memicu-asam-urat-kambuh-"
+  },
+  {
+    "text": "Alo, Dokter, saya laki-laki usia 32 tahun, ingin bertanya, jika sedang ambeien, olahraga apa saja yang sebaiknya benar-benar dihindari? Saya takut salah pilih olahraga justru bikin ambeien makin parah. Mohon saran jenis olahraga yang sebaiknya dihindari dan yang aman dilakukan.",
+    "annotations": [
+      {
+        "token": "ambeien",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/jenis-olahraga-apa-yang-aman-dan-yang-dilarang-jika-sedang"
+  },
+  {
+    "text": "Alo, Dok, bayi saya lahir dengan berat badan 1,9 kg dan sekarang usianya sudah 3 minggu. Saya ingin tahu, apa saja syarat bayi dengan berat badan rendah agar bisa mendapatkan vaksin BCG? Apakah harus menunggu berat badan tertentu, dan apa saja yang perlu diperhatikan sebelum vaksinasi?",
+    "annotations": [
+      {
+        "token": "1,9 kg",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "3 minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "vaksin BCG",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kapan-bayi-berat-badan-rendah-boleh-vaksin-bcg-"
+  },
+  {
+    "text": "Alo, Dokter. Saya perempuan usia 31 tahun, baru saja didiagnosis Temporomandibular Joint Syndrome (TMJ) karena rahang sering nyeri, kaku, dan kadang berbunyi klik saat mengunyah. Dokter menyarankan pengobatan, tapi saya masih bingung apa saja pilihan pengobatan TMJ syndrome yang tersedia. Apakah harus selalu minum obat atau ada terapi lain yang bisa membantu mengurangi keluhan?",
+    "annotations": [
+      {
+        "token": "Temporomandibular Joint Syndrome (TMJ)",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kaku",
+        "label": "GEJALA"
+      },
+      {
+        "token": "berbunyi klik",
+        "label": "GEJALA"
+      },
+      {
+        "token": "rahang",
+        "label": "LOKASI"
+      },
+      {
+        "token": "pengobatan",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-saja-pilihan-pengobatan-tmj-syndrome-"
+  },
+  {
+    "text": "Siang, Dok, mau tanya soal penggunaan cranial helmet. Anak saya usia 6 bulan baru mulai pakai cranial helmet untuk terapi plagiocephaly. Sejak pakai helm, dia jadi sering gelisah, susah tidur, dan gampang marah. Apa yang bisa saya lakukan supaya bayi lebih cepat beradaptasi dengan cranial helmet dan tidurnya tetap nyenyak?",
+    "annotations": [
+      {
+        "token": "plagiocephaly",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "gelisah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "susah tidur",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gampang marah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "cranial helmet",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-agar-bayi-tetap-tidur-nyenyak-saat-pakai-cranial"
+  },
+  {
+    "text": "Halo Dok. Saya perempuan usia 45 tahun, baru saja dipasangkan pessary karena turun peranakan ringan. Ingin bertanya, bagaimana cara membersihkan pessary yang benar dan seberapa sering harus kontrol ke dokter? Apakah ada efek samping yang perlu diwaspadai selama menggunakan pessary?",
+    "annotations": [
+      {
+        "token": "turun peranakan ringan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "pessary",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-membersihkan-pessary-yang-benar-untuk-turun-peranakan-"
+  },
+  {
+    "text": "Halo, selamat siang, Dok. Anak saya usia 5 tahun divonis turun berok atau hernia dan dokter menyarankan operasi. Kami masih ragu karena anak masih kecil. Apakah operasi hernia pada anak aman? Bagaimana prosesnya dan apa saja yang harus diperhatikan sebelum dan sesudah operasi?",
+    "annotations": [
+      {
+        "token": "turun berok",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "hernia",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "operasi",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-proses-operasi-hernia-pada-anak-dan-apa-persiapannya-"
+  },
+  {
+    "text": "Siang, Dok, mau tanya. Saya perempuan usia 25 tahun, setiap kali mengunyah permen karet, rahang saya sering bunyi krek, terutama di sisi kanan. Tidak ada rasa sakit, tapi kadang terasa aneh dan khawatir lama-lama jadi masalah. Apakah bunyi krek di rahang saat makan permen karet itu normal, dan apa yang sebaiknya saya lakukan agar tidak makin parah?",
+    "annotations": [
+      {
+        "token": "bunyi krek",
+        "label": "GEJALA"
+      },
+      {
+        "token": "rahang",
+        "label": "LOKASI"
+      },
+      {
+        "token": "sisi kanan",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/rahang-bunyi-krek-saat-makan-permen-karet--apa-penyebab-dan"
+  },
+  {
+    "text": "Selamat siang, Dok, mau tanya seputar Alzheimer. Ayah saya usia 67 tahun, didiagnosa Alzheimer dan belakangan ini sering kesulitan tidur di malam hari. Apa saja cara yang bisa dilakukan untuk mengatasi sulit tidur pada penderita Alzheimer? Adakah tips khusus agar tidur mereka lebih nyenyak tanpa harus langsung mengonsumsi obat tidur?",
+    "annotations": [
+      {
+        "token": "Alzheimer",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "67 tahun",
+        "label": "DURASI"
+      },
+      {
+        "token": "kesulitan tidur",
+        "label": "GEJALA"
+      },
+      {
+        "token": "obat tidur",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-sulit-tidur-pada-penderita-alzheimer-"
+  },
+  {
+    "text": "Halo, Dok, saya laki-laki usia 45 tahun, penderita kolesterol tinggi dan banyak teman menyarankan konsumsi habbatussauda sebagai obat alami. Apakah habbatussauda memang efektif untuk menurunkan kolesterol tinggi? Bagaimana cara konsumsinya yang benar dan adakah efek samping yang perlu diwaspadai?",
+    "annotations": [
+      {
+        "token": "kolesterol tinggi",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "habbatussauda",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/benarkah-habbatussauda-bisa-turunkan-kolesterol-tinggi-"
+  },
+  {
+    "text": "Selamat siang, Dok, mau tanya perihal keluhan buang air kecil yang terasa perih. Saya laki-laki usia 32 tahun, sering mengalami rasa perih saat buang air kecil setelah berhubungan seksual. Apakah ini bisa jadi tanda infeksi menular seksual atau hanya iritasi biasa? Kapan saya perlu periksa ke dokter?",
+    "annotations": [
+      {
+        "token": "keluhan buang air kecil",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perih",
+        "label": "GEJALA"
+      },
+      {
+        "token": "infeksi menular seksual",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "iritasi",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-pipis-perih-setelah-berhubungan-tanda-infeksi-menular-"
+  },
+  {
+    "text": "Halo, Dokter, mau konsultasi soal penggunaan cranial helmet. Bayi saya usia 8 bulan sedang menjalani terapi dengan cranial helmet untuk memperbaiki bentuk kepalanya. Tapi sejak pakai helm ini, dia jadi lebih rewel, sering menangis, dan tampak tidak nyaman. Bagaimana cara mengatasi bayi yang rewel saat memakai cranial helmet agar proses terapinya tetap lancar dan bayi tetap nyaman?",
+    "annotations": [
+      {
+        "token": "rewel",
+        "label": "GEJALA"
+      },
+      {
+        "token": "menangis",
+        "label": "GEJALA"
+      },
+      {
+        "token": "tidak nyaman",
+        "label": "GEJALA"
+      },
+      {
+        "token": "cranial helmet",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "8 bulan",
+        "label": "DURASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-agar-terapi-cranial-helmet-tidak-bikin-bayi-rewel-"
+  },
+  {
+    "text": "Halo, selamat pagi, Dokter, saya mau tanya seputar speech delay. Anak saya laki-laki usia 4 tahun didiagnosis speech delay. Sampai sekarang dia baru bisa mengucapkan beberapa kata sederhana. Saya ingin tahu, latihan bicara seperti apa yang bisa saya lakukan di rumah untuk membantu anak dengan speech delay agar kemampuan bicaranya berkembang lebih cepat?",
+    "annotations": [
+      {
+        "token": "speech delay",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "4 tahun",
+        "label": "DURASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-melatih-bicara-anak-dengan-speech-delay-di-rumah-"
+  },
+  {
+    "text": "Pagi, Dokter, mau tanya. Saya laki-laki usia 35 tahun, sudah beberapa hari ini setiap menarik napas dalam terasa nyeri tekan di dada bagian kiri. Rasa sakitnya seperti ditekan dan kadang menjalar ke punggung. Apakah kondisi ini berbahaya, dan apa saja kemungkinan penyebab nyeri tekan saat bernapas dalam seperti ini? Kapan saya perlu periksa ke dokter?",
+    "annotations": [
+      {
+        "token": "beberapa hari",
+        "label": "DURASI"
+      },
+      {
+        "token": "nyeri tekan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "dada bagian kiri",
+        "label": "LOKASI"
+      },
+      {
+        "token": "punggung",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-nyeri-tekan-saat-bernapas-dalam-"
+  },
+  {
+    "text": "Alo, selamat pagi, Dok, mau tanya. Saya perempuan usia 25 tahun, sejak beberapa tahun terakhir haid saya sering tidak teratur, kadang bisa telat sampai dua bulan. Selain itu, saya juga mulai tumbuh rambut kasar seperti brewok di area dagu dan pipi. Apa saja kemungkinan penyebabnya? Apakah kondisi seperti ini bisa berhubungan dengan masalah hormon atau sindrom tertentu, misalnya PCOS? Kapan saya perlu periksa ke dokter?",
+    "annotations": [
+      {
+        "token": "haid tidak teratur",
+        "label": "GEJALA"
+      },
+      {
+        "token": "beberapa tahun",
+        "label": "DURASI"
+      },
+      {
+        "token": "rambut kasar",
+        "label": "GEJALA"
+      },
+      {
+        "token": "dagu",
+        "label": "LOKASI"
+      },
+      {
+        "token": "pipi",
+        "label": "LOKASI"
+      },
+      {
+        "token": "PCOS",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-haid-tidak-teratur-dan-tumbuh-brewok-di-wajah-"
+  },
+  {
+    "text": "Alo, Dokter, mau tanya soal radioterapi pascahisterektomi. Kakak saya perempuan usia 48 tahun, baru-baru ini menjalani histerektomi karena kanker rahim stadium awal. Dokter menyarankan untuk menjalani radioterapi setelah operasi. Saya ingin tahu, apa tujuan radioterapi pasca histerektomi kanker rahim dan apakah ada efek samping yang perlu diwaspadai selama menjalani terapi ini?",
+    "annotations": [
+      {
+        "token": "kanker rahim",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "histerektomi",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "radioterapi",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/mengapa-perlu-radioterapi-setelah-operasi-histerektomi-karena-kanker-rahim-"
+  },
+  {
+    "text": "Alo, Dokter. Saya perempuan usia 42 tahun, baru saja didiagnosis mengalami turun peranakan oleh dokter. Saya masih takut menjalani operasi, jadi ingin tahu, adakah cara mengatasi turun peranakan tanpa operasi? Apakah ada latihan atau terapi tertentu yang bisa membantu mengurangi keluhan dan mencegah kondisinya makin parah?",
+    "annotations": [
+      {
+        "token": "turun peranakan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "operasi",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "keluhan",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-turun-peranakan-tanpa-operasi-"
+  },
+  {
+    "text": "Halo, Dokter, selamat pagi. Saya laki-laki usia 40 tahun, didiagnosis turun berok atau hernia inguinalis oleh dokter. Belakangan ini benjolannya makin sering terasa nyeri, apalagi saat batuk atau mengangkat barang berat. Dokter menyarankan operasi turun berok. Bagaimana proses operasi turun berok dilakukan, dan berapa lama waktu pemulihan biasanya?",
+    "annotations": [
+      {
+        "token": "turun berok",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "hernia inguinalis",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "operasi turun berok",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-proses-operasi-turun-berok-dan-berapa-lama-pemulihannya-"
+  },
+  {
+    "text": "Selamat pagi, Dok. Saya ibu rumah tangga usia 33 tahun, sedang mempertimbangkan untuk menggunakan KB spiral karena ingin menunda kehamilan jangka panjang. Saya ingin tahu, bagaimana cara kerja KB spiral, apa saja kelebihan dan kekurangannya KB spiral?",
+    "annotations": [
+      {
+        "token": "KB spiral",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "33 tahun",
+        "label": "DURASI"
+      },
+      {
+        "token": "kehamilan",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-saja-kelebihan-dan-kekurangan-penggunaan-kb-spiral-"
+  },
+  {
+    "text": "Alo, Dok. Saya perempuan usia 23 tahun, beberapa minggu terakhir kulit di sekitar alis saya jadi kering, bersisik, dan kadang terasa gatal. Padahal sebelumnya tidak pernah mengalami seperti ini. Apa penyebab kulit alis kering dan bersisik, dan bagaimana cara mengatasinya agar tidak makin parah?",
+    "annotations": [
+      {
+        "token": "beberapa minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "kulit di sekitar alis",
+        "label": "LOKASI"
+      },
+      {
+        "token": "kering",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bersisik",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gatal",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-kulit-alis-kering-dan-bersisik-dan-bagaimana-mengatasinya-"
+  },
+  {
+    "text": "Selamat pagi, Dok, izin konsultasi di fitur ini, ya. Saya perempuan usia 30 tahun, sekitar dua minggu lalu menjalani operasi LASIK. Sampai sekarang, mata saya masih terasa seperti berpasir, kadang agak kering dan tidak nyaman. Apakah sensasi mata seperti berpasir setelah LASIK ini normal? Berapa lama biasanya keluhan ini akan hilang, dan apa yang bisa dilakukan untuk meredakannya?",
+    "annotations": [
+      {
+        "token": "dua minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "mata",
+        "label": "LOKASI"
+      },
+      {
+        "token": "berpasir",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kering",
+        "label": "GEJALA"
+      },
+      {
+        "token": "tidak nyaman",
+        "label": "GEJALA"
+      },
+      {
+        "token": "LASIK",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-mengatasi-mata-kering-dan-berpasir-pasca-lasik-"
+  },
+  {
+    "text": "Alo, Dok, saya mau tanya. Adik saya perempuan usia 29 tahun, sudah sekitar seminggu ini setiap membuka mulut atau mengunyah makanan terdengar bunyi klik di rahang. Katanya tidak terlalu sakit, tapi kadang terasa tidak nyaman. Saya ingin tahu, Dok, apa penyebab bunyi klik pada rahang selama seminggu ini pada adik saya? Apakah kondisi ini berbahaya atau bisa sembuh sendiri?",
+    "annotations": [
+      {
+        "token": "seminggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "bunyi klik",
+        "label": "GEJALA"
+      },
+      {
+        "token": "rahang",
+        "label": "LOKASI"
+      },
+      {
+        "token": "sakit",
+        "label": "GEJALA"
+      },
+      {
+        "token": "tidak nyaman",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-bunyi-klik-pada-rahang-selama-seminggu-"
+  },
+  {
+    "text": "Selamat sore dokter, anak saya alergi telur. Apakah ada vaksin tertentu yang harus dihindari atau diperhatikan jika anak punya alergi makanan seperti telur?",
+    "annotations": [
+      {
+        "token": "alergi telur",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "alergi makanan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "telur",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/vaksin-apa-yang-harus-dihindari-anak-dengan-alergi-telur-"
+  },
+  {
+    "text": "Dok, sudah beberapa bulan terakhir saya sering sariawan di bagian dalam bibir, kadang juga di gusi. Sariawannya bisa lebih dari satu sekaligus dan terasa sangat perih. Apa saja yang bisa menyebabkan sariawan sering muncul dan bagaimana cara menghindarinya?",
+    "annotations": [
+      {
+        "token": "beberapa bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "sariawan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "bibir",
+        "label": "LOKASI"
+      },
+      {
+        "token": "gusi",
+        "label": "LOKASI"
+      },
+      {
+        "token": "perih",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kenapa-sariawan-sering-kambuh-di-bibir-dan-gusi-"
+  },
+  {
+    "text": "Selamat siang dokter, anak saya usia 7 tahun kadang minder karena merasa berbeda dari teman-temannya, baik secara fisik maupun perkembangan belajar. Bagaimana cara mendukung tumbuh kembang mental dan emosional anak?",
+    "annotations": [
+      {
+        "token": "minder",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-orang-tua-dapat-berperan-dalam-mendukung-tumbuh-kembang-mental"
+  },
+  {
+    "text": "Selamat siang, Dok. Saya sedang mencari alternatif alami untuk mengontrol kolesterol tinggi dan banyak yang menyarankan daun salam. Apakah ada penelitian yang membuktikan efektivitas daun salam untuk menurunkan kolesterol? Bagaimana cara aman mengonsumsinya agar tidak berbahaya bagi tubuh?",
+    "annotations": [
+      {
+        "token": "kolesterol tinggi",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "daun salam",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/adakah-bukti-ilmiah-bahwa-daun-salam-bisa-untuk-menurunkan-kolesterol"
+  },
+  {
+    "text": "Halo, Dokter. Saya laki-laki usia 46 tahun, sudah lama mengalami plantar fasciitis dan berbagai terapi belum terlalu membantu. Saya dengar ada metode suntik botox untuk plantar fasciitis. Sebenarnya, apa manfaat dan risiko suntik botox untuk plantar fasciitis? Apakah prosedur ini aman dan efektif untuk mengurangi nyeri tumit?",
+    "annotations": [
+      {
+        "token": "plantar fasciitis",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "suntik botox",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "nyeri tumit",
+        "label": "GEJALA"
+      },
+      {
+        "token": "botox",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-suntik-botox-efektif-untuk-plantar-fasciitis-"
+  },
+  {
+    "text": "Dok, mau tanya, saya pernah dengar kalau psikolog bisa membantu mengatasi disfungsi seksual pada pria maupun wanita. Sebenarnya, apa saja peran psikolog dalam menangani disfungsi seksual? Apakah konsultasi ke psikolog bisa benar-benar membantu, dan bagaimana proses terapinya?",
+    "annotations": [
+      {
+        "token": "disfungsi seksual",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "psikolog",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-peran-psikolog-dalam-menangani-disfungsi-seksual-"
+  },
+  {
+    "text": "Selamat siang, Dok, saya perempuan usia 36 tahun, baru menjalani operasi endometriosis sekitar dua minggu lalu. Sekarang saya masih sering merasakan nyeri di perut bagian bawah, kadang terasa menusuk dan kadang hanya pegal saja. Apakah nyeri perut bawah setelah operasi endometriosis ini normal? Kapan saya perlu khawatir dan memeriksakan diri kembali ke dokter?",
+    "annotations": [
+      {
+        "token": "dua minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "endometriosis",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "operasi endometriosis",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perut bagian bawah",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-nyeri-perut-bawah-setelah-operasi-endometriosis-normal-"
+  },
+  {
+    "text": "Hi Dok, saya perempuan usia 20 tahun, sedang mengalami dermatitis perioral di area sekitar mulut. Saya bingung memilih produk skincare yang aman digunakan. Apa saja jenis skincare yang sebaiknya dipakai dan mana yang perlu dihindari saat dermatitis perioral? Mohon rekomendasi dan penjelasannya, Dok.",
+    "annotations": [
+      {
+        "token": "dermatitis perioral",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "sekitar mulut",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/produk-skincare-apa-yang-aman-untuk-dermatitis-perioral-"
+  },
+  {
+    "text": "Halo, Dok, saya laki-laki usia 45 tahun, sering mengalami asam urat kambuh, terutama setelah makan-makanan tertentu. Saya ingin tahu, makanan apa saja yang bisa memicu asam urat kambuh? Apakah benar seafood, jeroan, dan kacang-kacangan harus dihindari? Mohon penjelasan jenis makanan yang sebaiknya dibatasi agar asam urat tidak sering kambuh.",
+    "annotations": [
+      {
+        "token": "asam urat",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/makanan-apa-yang-memicu-asam-urat-kambuh-"
+  },
+  {
+    "text": "Alo, Dokter, saya laki-laki usia 32 tahun, ingin bertanya, jika sedang ambeien, olahraga apa saja yang sebaiknya benar-benar dihindari? Saya takut salah pilih olahraga justru bikin ambeien makin parah. Mohon saran jenis olahraga yang sebaiknya dihindari dan yang aman dilakukan.",
+    "annotations": [
+      {
+        "token": "ambeien",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/jenis-olahraga-apa-yang-aman-dan-yang-dilarang-jika-sedang"
+  },
+  {
+    "text": "Alo, Dok, bayi saya lahir dengan berat badan 1,9 kg dan sekarang usianya sudah 3 minggu. Saya ingin tahu, apa saja syarat bayi dengan berat badan rendah agar bisa mendapatkan vaksin BCG? Apakah harus menunggu berat badan tertentu, dan apa saja yang perlu diperhatikan sebelum vaksinasi?",
+    "annotations": [
+      {
+        "token": "1,9 kg",
+        "label": "GEJALA"
+      },
+      {
+        "token": "3 minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "vaksin BCG",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kapan-bayi-berat-badan-rendah-boleh-vaksin-bcg-"
+  },
+  {
+    "text": "Alo, Dokter. Saya perempuan usia 31 tahun, baru saja didiagnosis Temporomandibular Joint Syndrome (TMJ) karena rahang sering nyeri, kaku, dan kadang berbunyi klik saat mengunyah. Dokter menyarankan pengobatan, tapi saya masih bingung apa saja pilihan pengobatan TMJ syndrome yang tersedia. Apakah harus selalu minum obat atau ada terapi lain yang bisa membantu mengurangi keluhan?",
+    "annotations": [
+      {
+        "token": "Temporomandibular Joint Syndrome (TMJ)",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kaku",
+        "label": "GEJALA"
+      },
+      {
+        "token": "klik",
+        "label": "GEJALA"
+      },
+      {
+        "token": "rahang",
+        "label": "LOKASI"
+      },
+      {
+        "token": "pengobatan",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "obat",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-saja-pilihan-pengobatan-tmj-syndrome-"
+  },
+  {
+    "text": "Siang, Dok, mau tanya soal penggunaan cranial helmet. Anak saya usia 6 bulan baru mulai pakai cranial helmet untuk terapi plagiocephaly. Sejak pakai helm, dia jadi sering gelisah, susah tidur, dan gampang marah. Apa yang bisa saya lakukan supaya bayi lebih cepat beradaptasi dengan cranial helmet dan tidurnya tetap nyenyak?",
+    "annotations": [
+      {
+        "token": "plagiocephaly",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "6 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "gelisah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "susah tidur",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gampang marah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "cranial helmet",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-agar-bayi-tetap-tidur-nyenyak-saat-pakai-cranial"
+  },
+  {
+    "text": "Halo Dok. Saya perempuan usia 45 tahun, baru saja dipasangkan pessary karena turun peranakan ringan. Ingin bertanya, bagaimana cara membersihkan pessary yang benar dan seberapa sering harus kontrol ke dokter? Apakah ada efek samping yang perlu diwaspadai selama menggunakan pessary?",
+    "annotations": [
+      {
+        "token": "turun peranakan ringan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "pessary",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-membersihkan-pessary-yang-benar-untuk-turun-peranakan-"
+  },
+  {
+    "text": "Halo, selamat siang, Dok. Anak saya usia 5 tahun divonis turun berok atau hernia dan dokter menyarankan operasi. Kami masih ragu karena anak masih kecil. Apakah operasi hernia pada anak aman? Bagaimana prosesnya dan apa saja yang harus diperhatikan sebelum dan sesudah operasi?",
+    "annotations": [
+      {
+        "token": "turun berok",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "hernia",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "operasi",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-proses-operasi-hernia-pada-anak-dan-apa-persiapannya-"
+  },
+  {
+    "text": "Siang, Dok, mau tanya. Saya perempuan usia 25 tahun, setiap kali mengunyah permen karet, rahang saya sering bunyi krek, terutama di sisi kanan. Tidak ada rasa sakit, tapi kadang terasa aneh dan khawatir lama-lama jadi masalah. Apakah bunyi krek di rahang saat makan permen karet itu normal, dan apa yang sebaiknya saya lakukan agar tidak makin parah?",
+    "annotations": [
+      {
+        "token": "bunyi krek",
+        "label": "GEJALA"
+      },
+      {
+        "token": "rahang",
+        "label": "LOKASI"
+      },
+      {
+        "token": "rasa sakit",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/rahang-bunyi-krek-saat-makan-permen-karet--apa-penyebab-dan"
+  },
+  {
+    "text": "Selamat siang, Dok, mau tanya seputar Alzheimer. Ayah saya usia 67 tahun, didiagnosa Alzheimer dan belakangan ini sering kesulitan tidur di malam hari. Apa saja cara yang bisa dilakukan untuk mengatasi sulit tidur pada penderita Alzheimer? Adakah tips khusus agar tidur mereka lebih nyenyak tanpa harus langsung mengonsumsi obat tidur?",
+    "annotations": [
+      {
+        "token": "Alzheimer",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "67 tahun",
+        "label": "DURASI"
+      },
+      {
+        "token": "kesulitan tidur",
+        "label": "GEJALA"
+      },
+      {
+        "token": "Alzheimer",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "obat tidur",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-sulit-tidur-pada-penderita-alzheimer-"
+  },
+  {
+    "text": "Halo, Dok, saya laki-laki usia 45 tahun, penderita kolesterol tinggi dan banyak teman menyarankan konsumsi habbatussauda sebagai obat alami. Apakah habbatussauda memang efektif untuk menurunkan kolesterol tinggi? Bagaimana cara konsumsinya yang benar dan adakah efek samping yang perlu diwaspadai?",
+    "annotations": [
+      {
+        "token": "kolesterol tinggi",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "habbatussauda",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/benarkah-habbatussauda-bisa-turunkan-kolesterol-tinggi-"
+  },
+  {
+    "text": "Dok, saya ibu rumah tangga berusia 48 tahun dan sedang mengalami masa perimenopause. Belakangan ini saya sering merasa vagina kering sehingga terasa tidak nyaman, terutama saat berhubungan. Apa saja cara yang bisa dilakukan untuk mengatasi vagina kering saat perimenopause? Apakah ada pelumas atau perawatan khusus yang aman digunakan?",
+    "annotations": [
+      {
+        "token": "vagina kering",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perimenopause",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "vagina",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-vagina-kering-saat-perimenopause-"
+  },
+  {
+    "text": "Dok, saya perempuan usia 42 tahun, sudah beberapa bulan mengalami nyeri tumit akibat plantar fasciitis. Saya dengar ada terapi RSWT, tapi ingin tahu apa saja pilihan terapi lain untuk plantar fasciitis selain RSWT? Apakah ada terapi fisik, obat, atau tindakan lain yang efektif untuk mengurangi nyeri dan mempercepat pemulihan?",
+    "annotations": [
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "tumit",
+        "label": "LOKASI"
+      },
+      {
+        "token": "beberapa bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "plantar fasciitis",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "RSWT",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "terapi fisik",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "obat",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/pilihan-pengobatan-plantar-fasciitis-tanpa-rswt--apa-saja-"
+  },
+  {
+    "text": "Selamat siang, Dok. Saya berusia 55 tahun dan belakangan sering merasa silau saat melihat lampu, padahal sebelumnya tidak pernah begitu. Apakah ini termasuk gejala awal katarak? Gejala lain apa yang biasanya muncul di tahap awal katarak pada mata?",
+    "annotations": [
+      {
+        "token": "silau",
+        "label": "GEJALA"
+      },
+      {
+        "token": "katarak",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "mata",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/silau-saat-melihat-lampu--apakah-gejala-awal-katarak-"
+  },
+  {
+    "text": "Selamat pagi, Dok, saya pria usia 35 tahun dan belakangan ini sering mengalami masalah disfungsi seksual seperti sulit ereksi dan kurang bergairah. Apa saja cara yang bisa dilakukan untuk mengatasi disfungsi seksual pada pria? Apakah ada perubahan gaya hidup, makanan, atau terapi tertentu yang bisa membantu memperbaiki kondisi ini?",
+    "annotations": [
+      {
+        "token": "disfungsi seksual",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "sulit ereksi",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kurang bergairah",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-disfungsi-seksual-pada-pria-"
+  },
+  {
+    "text": "Dok, saya perempuan usia 31 tahun, didiagnosa endometriosis dan sering mengalami nyeri hebat terutama saat menstruasi. Obat apa saja yang bisa digunakan untuk meredakan nyeri akibat endometriosis? Apakah ada obat yang dijual bebas atau harus resep dokter, dan adakah efek samping yang perlu diwaspadai?",
+    "annotations": [
+      {
+        "token": "endometriosis",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "nyeri hebat",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/obat-apa-yang-ampuh-redakan-nyeri-endometriosis-"
+  },
+  {
+    "text": "Pagi, Dok, saya perempuan usia 26 tahun, pernah mengalami situasi tidak nyaman karena bertemu orang yang diduga punya perilaku eksibisionis (suka memamerkan bagian tubuh pribadi di tempat umum). Apa yang sebaiknya saya lakukan saat menghadapi orang seperti ini agar tetap aman secara fisik dan mental? Mohon tips menghadapi situasi seperti ini, Dok.",
+    "annotations": [],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-menghadapi-orang-yang-punya-perilaku-eksibisionis-"
+  },
+  {
+    "text": "Dok, saya perempuan usia 22 tahun, sedang mengalami dermatitis perioral di sekitar mulut yang sudah berlangsung beberapa minggu. Saya ingin tahu, adakah tips atau cara alami yang bisa membantu mempercepat penyembuhan dermatitis perioral di rumah? Selain obat dari dokter, apa yang sebaiknya dilakukan atau dihindari agar kulit cepat membaik?",
+    "annotations": [
+      {
+        "token": "dermatitis perioral",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "beberapa minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "sekitar mulut",
+        "label": "LOKASI"
+      },
+      {
+        "token": "obat",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mempercepat-penyembuhan-dermatitis-perioral-"
+  },
+  {
+    "text": "Selamat pagi, Dok, mau tanya soal chikungunya. Saya laki-laki usia 29 tahun, baru saja didiagnosa chikungunya dan sekarang sedang istirahat di rumah. Apa saja cara yang bisa dilakukan untuk mengobati chikungunya di rumah agar cepat pulih? Adakah tips khusus untuk meredakan demam, nyeri sendi, dan kelelahan tanpa harus ke rumah sakit?",
+    "annotations": [
+      {
+        "token": "chikungunya",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "demam",
+        "label": "GEJALA"
+      },
+      {
+        "token": "nyeri sendi",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kelelahan",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengobati-chikungunya-di-rumah-"
+  },
+  {
+    "text": "Pagi, Dok, ayah saya sudah berusia 70 tahun dan sering kambuh asam uratnya, terutama di bagian kaki. Kami bingung memilih obat asam urat yang aman untuk lansia karena khawatir efek sampingnya. Kira-kira, obat apa yang boleh dikonsumsi lansia dan apa saja yang perlu diperhatikan sebelum minum obat asam urat?",
+    "annotations": [
+      {
+        "token": "asam urat",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "kaki",
+        "label": "LOKASI"
+      },
+      {
+        "token": "obat asam urat",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/obat-asam-urat-apa-yang-aman-untuk-lansia-"
+  },
+  {
+    "text": "Selamat siang, Dokter, saya mau tanya soal gejala ambeien dalam. Akhir-akhir ini saya sering merasa tidak nyaman di bagian anus, terutama setelah buang air besar. Kadang terasa ada benjolan di dalam, tapi tidak keluar, dan sering juga disertai rasa nyeri atau gatal. Saya juga pernah melihat sedikit darah di tisu setelah BAB. Apakah ini termasuk ciri-ciri ambeien dalam? Mohon penjelasannya, Dok.",
+    "annotations": [
+      {
+        "token": "gejala ambeien dalam",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "tidak nyaman",
+        "label": "GEJALA"
+      },
+      {
+        "token": "anus",
+        "label": "LOKASI"
+      },
+      {
+        "token": "benjolan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gatal",
+        "label": "GEJALA"
+      },
+      {
+        "token": "darah",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-nyeri-dan-benjolan-di-anus-tanda-ambeien-dalam-"
+  },
+  {
+    "text": "Pagi, Dok, anak saya lahir prematur di usia kehamilan 33 minggu dengan berat 1,7 kg. Sekarang usianya sudah 1 bulan dan berat badannya naik jadi 2 kg. Saya ingin tahu, kapan waktu yang tepat untuk vaksinasi BCG pada bayi prematur? Apakah ada syarat khusus yang harus dipenuhi sebelum diberikan vaksin ini?",
+    "annotations": [
+      {
+        "token": "lahir prematur",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "33 minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "1,7 kg",
+        "label": "LOKASI"
+      },
+      {
+        "token": "1 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "2 kg",
+        "label": "LOKASI"
+      },
+      {
+        "token": "vaksinasi BCG",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kapan-bayi-prematur-boleh-vaksinasi-bcg-"
+  },
+  {
+    "text": "Halo, Dokter, saya laki-laki usia 35 tahun, ingin tanya soal kutil di tangan dan kaki. Sudah beberapa bulan ini di jari tangan dan telapak kaki saya muncul kutil kecil-kecil yang kadang terasa gatal. Saya bingung, sebenarnya apa sih penyebab kutil bisa tumbuh di tangan dan kaki? Saya juga nggak merasa sering kontak dengan orang yang punya kutil. Mohon penjelasannya, ya Dok.",
+    "annotations": [
+      {
+        "token": "kutil",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "beberapa bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "jari tangan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "telapak kaki",
+        "label": "LOKASI"
+      },
+      {
+        "token": "gatal",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/mengapa-kutil-bisa-muncul-di-jari-dan-telapak-kaki-"
+  },
+  {
+    "text": "Selamat sore, Dok, mau tanya. Saya perempuan usia 35 tahun, baru saja didiagnosis anemia hemolitik autoimun setelah sering merasa lemas, pusing, dan kulit agak kuning. Dokter bilang ini karena sistem imun menyerang sel darah merah sendiri. Apa saja langkah penanganan yang biasanya dilakukan untuk anemia hemolitik autoimun, dan apakah ada obat khusus yang harus rutin diminum?",
+    "annotations": [
+      {
+        "token": "lemas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "pusing",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kulit agak kuning",
+        "label": "GEJALA"
+      },
+      {
+        "token": "anemia hemolitik autoimun",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-penanganan-anemia-hemolitik-autoimun-"
+  },
+  {
+    "text": "Dok, izin bertanya. Saya laki-laki usia 49 tahun, punya riwayat DVT setahun lalu dan sekarang harus operasi lutut. Apakah operasi bisa meningkatkan risiko DVT kambuh lagi? Apa yang perlu saya sampaikan ke tim medis sebelum operasi?",
+    "annotations": [
+      {
+        "token": "DVT",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "setahun",
+        "label": "DURASI"
+      },
+      {
+        "token": "DVT",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "operasi lutut",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "DVT",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "operasi",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "lutut",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-operasi-lutut-bisa-sebabkan-dvt-kambuh-"
+  },
+  {
+    "text": "Selamat sore, Dok, saya ingin tahu, apakah disleksia bisa memengaruhi kepercayaan diri anak? Bagaimana cara membantu anak disleksia agar tidak minder dan tetap semangat belajar?",
+    "annotations": [
+      {
+        "token": "disleksia",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-disleksia-bisa-menurunkan-kepercayaan-diri-anak-dan-bagaimana-mengatasinya-"
+  },
+  {
+    "text": "Halo, Dokter, mau bertanya perihal anemia hemolitik karena obat tertentu. Saya laki-laki usia 28 tahun. Setelah minum obat penghilang nyeri karena sakit gigi, saya jadi sering lemas, tubuh terasa pucat, dan urine agak kecokelatan. Setelah cek darah, dokter bilang saya kena anemia hemolitik akibat obat penghilang nyeri. Apa yang menyebabkan obat penghilang nyeri bisa memicu anemia hemolitik, dok? Apakah anemia hemolitik akibat obat nyeri ini bisa kambuh lagi kalau saya minum obat serupa? Apakah ada ciri-ciri khusus yang harus saya waspadai jika harus minum obat nyeri lagi?",
+    "annotations": [
+      {
+        "token": "anemia hemolitik",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "obat penghilang nyeri",
+        "label": "OBAT"
+      },
+      {
+        "token": "lemas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "tubuh terasa pucat",
+        "label": "GEJALA"
+      },
+      {
+        "token": "urine agak kecokelatan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "anemia hemolitik",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "obat penghilang nyeri",
+        "label": "OBAT"
+      },
+      {
+        "token": "obat nyeri",
+        "label": "OBAT"
+      },
+      {
+        "token": "obat serupa",
+        "label": "OBAT"
+      },
+      {
+        "token": "sakit gigi",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-anemia-hemolitik-akibat-obat-nyeri-bisa-sembuh-dan-kambuh"
+  },
+  {
+    "text": "Dok, izin bertanya seputar retardasi mental. Putri saya usia 10 tahun mengalami retardasi mental sedang. Saat ini, dia sudah sekolah di SLB tapi masih sering kesulitan berinteraksi dengan teman dan guru. Apakah terapi perilaku atau terapi sosial bisa membantu anak seperti ini? Bagaimana cara memulai terapi tersebut dan seberapa besar manfaatnya?",
+    "annotations": [
+      {
+        "token": "retardasi mental",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "10 tahun",
+        "label": "DURASI"
+      },
+      {
+        "token": "retardasi mental sedang",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "kesulitan berinteraksi",
+        "label": "GEJALA"
+      },
+      {
+        "token": "terapi perilaku",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "terapi sosial",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/anak-dengan-retardasi-mental-sulit-bersosialisasi-di-slb--apakah-terapi"
+  },
+  {
+    "text": "Halo, Dokter, mau tanya soal phobia. Saya perempuan usia 29 tahun, didiagnosis agoraphobia sejak beberapa bulan lalu. Dokter menyarankan obat antidepresan untuk membantu mengurangi kecemasan saya. Apakah benar obat antidepresan efektif untuk agoraphobia? Apa saja jenis antidepresan yang biasanya diresepkan dan bagaimana cara kerjanya?",
+    "annotations": [
+      {
+        "token": "phobia",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "agoraphobia",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "beberapa bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "antidepresan",
+        "label": "OBAT"
+      },
+      {
+        "token": "kecemasan",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/antidepresan-apa-yang-paling-sering-digunakan-untuk-mengatasi-agoraphobia-"
+  },
+  {
+    "text": "Halo, selamat siang, Dok. Ibu saya usia 58 tahun didiagnosis turun peranakan dan dokter menyarankan penggunaan pessary sebagai alternatif selain operasi. Kami masih belum paham bagaimana cara kerja pessary untuk turun peranakan. Apakah penggunaan pessary aman untuk jangka panjang?",
+    "annotations": [
+      {
+        "token": "turun peranakan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "pessary",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "operasi",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-kerja-pessary-untuk-turun-peranakan-dan-apakah-aman"
+  },
+  {
+    "text": "Siang, Dok, mau tanya soal turun berok. Saya laki-laki usia 42 tahun, sudah lama punya benjolan turun berok di selangkangan. Akhir-akhir ini benjolan terasa makin nyeri dan kadang disertai mual, terutama saat berdiri lama atau mengangkat barang berat. Apakah nyeri dan mual pada turun berok ini termasuk tanda bahaya? Apa yang harus saya lakukan jika gejala ini muncul?",
+    "annotations": [
+      {
+        "token": "turun berok",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "benjolan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "selangkangan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "mual",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-yang-harus-dilakukan-jika-turun-berok-disertai-nyeri-dan"
+  },
+  {
+    "text": "Alo, Dok. Saya perempuan usia 32 tahun, haid saya memang tidak teratur sejak remaja. Sekarang sedang mempertimbangkan KB spiral sebagai alat kontrasepsi. Apakah KB spiral aman dan efektif untuk wanita dengan haid tidak teratur? Apakah ada risiko siklus haid jadi semakin kacau atau justru bisa membantu menormalkan haid?",
+    "annotations": [
+      {
+        "token": "haid tidak teratur",
+        "label": "GEJALA"
+      },
+      {
+        "token": "KB spiral",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "haid",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kb-spiral--solusi-atau-masalah-untuk-haid-tidak-teratur-"
+  },
+  {
+    "text": "Hi, Dok, mau tanya soal efek samping obat darah tinggi. Saya baru-baru ini mulai konsumsi obat antihipertensi jenis ACE inhibitor, yaitu captopril, tapi kok saya jadi sering batuk-batuk ya, Dok? Apakah ini wajar dan efek samping dari obat tersebut? Kalau tidak cocok, adakah alternatif obat antihipertensi yang tidak menimbulkan batuk?",
+    "annotations": [
+      {
+        "token": "darah tinggi",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "ACE inhibitor",
+        "label": "OBAT"
+      },
+      {
+        "token": "captopril",
+        "label": "OBAT"
+      },
+      {
+        "token": "batuk-batuk",
+        "label": "GEJALA"
+      },
+      {
+        "token": "obat antihipertensi",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/batuk-batuk-setelah-minum-captopril--apa-ini-efek-samping-obat-antihipertensi"
+  },
+  {
+    "text": "Alo, Dok, mau tanya soal demam kuning. Ayah saya usia 55 tahun mengalami demam, mual, muntah, dan matanya tampak kuning setelah pulang dari perjalanan bisnis ke Afrika. Saya curiga ini gejala demam kuning. Apakah usia lanjut lebih berisiko mengalami komplikasi demam kuning?",
+    "annotations": [
+      {
+        "token": "demam",
+        "label": "GEJALA"
+      },
+      {
+        "token": "mual",
+        "label": "GEJALA"
+      },
+      {
+        "token": "muntah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "demam kuning",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-lansia-lebih-rentan-mengalami-komplikasi-demam-kuning-"
+  },
+  {
+    "text": "Dok, selamat siang, mau tanya soal deep vein thrombosis (DVT). Saya laki-laki usia 48 tahun, sering bepergian naik pesawat lebih dari 8 jam dan kadang setelahnya kaki terasa pegal dan bengkak. Apakah perjalanan jauh seperti ini bisa menyebabkan deep vein thrombosis? Bagaimana cara mencegahnya?",
+    "annotations": [
+      {
+        "token": "deep vein thrombosis (DVT)",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "8 jam",
+        "label": "DURASI"
+      },
+      {
+        "token": "kaki",
+        "label": "LOKASI"
+      },
+      {
+        "token": "pegal",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bengkak",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-perjalanan-jauh-bisa-sebabkan-dvt-"
+  },
+  {
+    "text": "Selamat pagi, Dok. Saya khawatir soal masa depan anak saya yang didiagnosis disleksia. Apakah disleksia bisa disembuhkan? Terapi atau metode apa yang paling efektif untuk membantu anak dengan disleksia belajar membaca dan menulis?",
+    "annotations": [
+      {
+        "token": "disleksia",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "disleksia",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "terapi",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/metode-apa-yang-efektif-untuk-membantu-anak-disleksia-belajar-membaca"
+  },
+  {
+    "text": "Halo, Dok, selamat siang. Saya laki-laki usia 30 tahun, baru-baru ini selesai mengonsumsi antibiotik untuk infeksi tenggorokan. Beberapa hari setelahnya, saya merasa cepat lelah, kulit dan mata agak kuning, serta urine lebih gelap. Setelah cek darah, dokter bilang saya mengalami anemia hemolitik akibat penggunaan antibiotik. Saya jadi ingin tahu, apakah semua jenis antibiotik bisa menyebabkan anemia hemolitik? Apakah kondisi ini bisa sembuh total dan apa saja yang harus saya hindari agar tidak terulang lagi?",
+    "annotations": [
+      {
+        "token": "antibiotik",
+        "label": "OBAT"
+      },
+      {
+        "token": "infeksi tenggorokan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "cepat lelah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kulit dan mata agak kuning",
+        "label": "GEJALA"
+      },
+      {
+        "token": "urine lebih gelap",
+        "label": "GEJALA"
+      },
+      {
+        "token": "anemia hemolitik",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "cek darah",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-semua-antibiotik-bisa-sebabkan-anemia-hemolitik-"
+  },
+  {
+    "text": "Siang, Dokter. Saya laki-laki usia 36 tahun, belakangan ini merasa ukuran tangan dan kaki saya bertambah besar, padahal berat badan tidak naik signifikan. Wajah juga tampak lebih kasar dan rahang menonjol. Apakah perubahan fisik seperti ini bisa jadi gejala awal akromegali? Apa ciri-ciri awal lain yang perlu saya waspadai?",
+    "annotations": [
+      {
+        "token": "tangan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "kaki",
+        "label": "LOKASI"
+      },
+      {
+        "token": "wajah",
+        "label": "LOKASI"
+      },
+      {
+        "token": "rahang",
+        "label": "LOKASI"
+      },
+      {
+        "token": "ukuran tangan dan kaki saya bertambah besar",
+        "label": "GEJALA"
+      },
+      {
+        "token": "wajah juga tampak lebih kasar",
+        "label": "GEJALA"
+      },
+      {
+        "token": "rahang menonjol",
+        "label": "GEJALA"
+      },
+      {
+        "token": "akromegali",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-perubahan-fisik-bisa-jadi-gejala-awal-akromegali-"
+  },
+  {
+    "text": "Alo, Dok, mau konsultasi soal retardasi mental. Anak saya usia 7 tahun didiagnosis retardasi mental ringan. Sampai sekarang, dia masih kesulitan berbicara dan agak lambat memahami instruksi. Saya ingin tahu, terapi apa saja yang bisa membantu perkembangan anak dengan retardasi mental seperti ini? Apakah ada terapi khusus yang sebaiknya rutin dilakukan di rumah atau di klinik?",
+    "annotations": [
+      {
+        "token": "retardasi mental",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "7 tahun",
+        "label": "DURASI"
+      },
+      {
+        "token": "retardasi mental ringan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "kesulitan berbicara",
+        "label": "GEJALA"
+      },
+      {
+        "token": "lambat memahami instruksi",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-ada-terapi-khusus-untuk-anak-retardasi-mental-ringan-"
+  },
+  {
+    "text": "Halo, Dokter, mau tanya seputar penanganan agoraphobia. Adik saya laki-laki usia 22 tahun didiagnosis agoraphobia karena sering panik saat harus naik transportasi umum atau berada di keramaian. Kami sekeluarga ingin membantunya sembuh. Apa saja langkah pengobatan yang bisa dilakukan di rumah dan kapan sebaiknya ditangani oleh dokter?",
+    "annotations": [
+      {
+        "token": "agoraphobia",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "panik",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-saja-langkah-pengobatan-agoraphobia-yang-bisa-dilakukan-di-rumah-"
+  },
+  {
+    "text": "Dok, mau tanya soal sleepwalking. Anak saya laki-laki usia 8 tahun sering tidur berjalan di malam hari, kadang sampai ke ruang tamu tanpa sadar. Kami khawatir dia bisa cedera atau jatuh. Bagaimana cara menangani anak dengan gangguan tidur berjalan seperti ini? Apa yang sebaiknya dilakukan di rumah agar anak tetap aman dan tidurnya lebih nyenyak?",
+    "annotations": [
+      {
+        "token": "sleepwalking",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "tidur berjalan",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-gangguan-tidur-berjalan-pada-anak-8-tahun-"
+  },
+  {
+    "text": "Dok, saat USG kehamilan 8 bulan, dokter bilang bayi saya terlilit tali pusat satu kali di leher. Saya jadi khawatir, apakah kondisi ini berbahaya untuk bayi dan apa yang harus saya lakukan sampai persalinan nanti?",
+    "annotations": [
+      {
+        "token": "USG",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "8 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "kehamilan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "terlilit tali pusat",
+        "label": "GEJALA"
+      },
+      {
+        "token": "leher",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-yang-harus-dilakukan-jika-bayi-terlilit-tali-pusat-saat"
+  },
+  {
+    "text": "Dok, saya hamil 8 bulan dan belum pernah TTGO sama sekali. Apakah masih perlu melakukan pemeriksaan TTGO di trimester 3, atau pemeriksaan gula darah biasa sudah cukup untuk deteksi diabetes gestasional?",
+    "annotations": [
+      {
+        "token": "8 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "hamil",
+        "label": "KEADAAN"
+      },
+      {
+        "token": "TTGO",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "trimester 3",
+        "label": "DURASI"
+      },
+      {
+        "token": "pemeriksaan gula darah",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "diabetes gestasional",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-pemeriksaan-gula-darah-biasa-cukup-untuk-mendeteksi-diabetes-gestasional-"
+  },
+  {
+    "text": "Dok, gigi depan atas saya bolong dan terkadang terasa sakit menusuk sampai ke kepala. Apakah ini tanda infeksi? Apa yang harus dilakukan jika gigi depan bolong sudah sampai menimbulkan nyeri hebat?",
+    "annotations": [
+      {
+        "token": "gigi depan atas",
+        "label": "LOKASI"
+      },
+      {
+        "token": "bolong",
+        "label": "GEJALA"
+      },
+      {
+        "token": "sakit menusuk",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kepala",
+        "label": "LOKASI"
+      },
+      {
+        "token": "infeksi",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "nyeri hebat",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-gigi-depan-bolong-bisa-sebabkan-infeksi-"
+  },
+  {
+    "text": "Dok, anak saya usia 10 tahun dan giginya mulai terlihat tidak rapi, ada yang bertumpuk juga. Sebenarnya di usia berapa anak boleh mulai pakai behel, dan apa saja syarat atau pertimbangannya supaya aman untuk pertumbuhan gigi dan rahangnya?",
+    "annotations": [
+      {
+        "token": "gigi",
+        "label": "LOKASI"
+      },
+      {
+        "token": "10 tahun",
+        "label": "DURASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kapan-anak-boleh-pasang-behel-gigi-"
+  },
+  {
+    "text": "Halo dokter, saya ingin tahu, apakah TBC bisa sembuh total jika pengobatan dijalani sesuai anjuran? Berapa lama biasanya pengobatan TBC sampai benar-benar dinyatakan sembuh dan apa yang harus diperhatikan selama pengobatan?",
+    "annotations": [
+      {
+        "token": "TBC",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-tbc-bisa-sembuh-total-"
+  },
+  {
+    "text": "Dok, saya sering mengalami hidung perih di bagian dalam, biasanya setelah membersihkan hidung atau mengorek kotoran hidung. Tapi tidak ada darah sama sekali. Apakah kebiasaan ini bisa menyebabkan luka di hidung? Bagaimana cara membersihkan hidung yang aman agar tidak perih?",
+    "annotations": [
+      {
+        "token": "hidung perih",
+        "label": "GEJALA"
+      },
+      {
+        "token": "hidung",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-hidung-terasa-perih-setelah-dibersihkan--meski-tidak-berdarah-"
+  },
+  {
+    "text": "Dok, saya penderita diabetes tipe 2 dan sering diminta cek HbA1c tiap 3 bulan. Apa bedanya tes HbA1c dengan cek gula darah biasa? Kenapa hasilnya bisa berbeda?",
+    "annotations": [
+      {
+        "token": "diabetes tipe 2",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "3 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "HbA1c",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "cek gula darah",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-fungsi-pemeriksaan-hba1c-bagi-penderita-diabetes-"
+  },
+  {
+    "text": "Dok, setiap hari saya bekerja dan bayi 8 bulan saya diasuh neneknya di rumah. Bagaimana cara membuat jadwal makan yang mudah diikuti pengasuh agar kebutuhan nutrisi bayi tetap terjaga?",
+    "annotations": [],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-mengatur-jadwal-makan-untuk-bayi-usia-8-bulan-"
+  },
+  {
+    "text": "Dok, saya perempuan usia 27 tahun, punggung saya terlihat bungkuk sejak beberapa tahun terakhir. Apakah memperbaiki punggung bungkuk di usia dewasa masih memungkinkan, dan apa saja langkah yang bisa saya lakukan di rumah?",
+    "annotations": [
+      {
+        "token": "punggung",
+        "label": "LOKASI"
+      },
+      {
+        "token": "bungkuk",
+        "label": "GEJALA"
+      },
+      {
+        "token": "beberapa tahun",
+        "label": "DURASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/latihan-apa-yang-dapat-membantu-memperbaiki-punggung-bungkuk-di-usia"
+  },
+  {
+    "text": "Dok, saya pernah membaca ada negara yang melarang baby walker. Apa alasan medis di balik pelarangan baby walker di beberapa negara, dan apakah saya harus khawatir jika tetap menggunakannya?",
+    "annotations": [],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-alasan-medis-dilarangnya-penggunaan-baby-walker-"
+  },
+  {
+    "text": "Dok, saya mau melahirkan dan ditawari bius ILA oleh dokter kandungan. Sebenarnya bius ILA itu seperti apa, bagaimana cara kerjanya, dan apa saja efek samping yang mungkin saya rasakan selama atau setelah proses persalinan?",
+    "annotations": [
+      {
+        "token": "buis ILA",
+        "label": "OBAT"
+      },
+      {
+        "token": "melahirkan",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "dokter kandungan",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-yang-perlu-diketahui-sebelum-menjalani-bius-ila-saat-melahirkan-"
+  },
+  {
+    "text": "Pagi dok, saya mau tanya. Ayah saya lansia, suka berenang, tapi sekarang sering nyeri sendi. Apakah berenang tetap aman untuk lansia dengan keluhan sendi, atau ada alternatif aktivitas fisik lain yang lebih disarankan?",
+    "annotations": [
+      {
+        "token": "nyeri sendi",
+        "label": "GEJALA"
+      },
+      {
+        "token": "lansia",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-berenang-aman-untuk-lansia-nyeri-sendi-"
+  },
+  {
+    "text": "Dok, 2 hari yang lalu saya mengalami sakit kepala di jidat yang muncul tiba-tiba dan sangat hebat, sampai membuat mual dan sulit membuka mata. Ini baru pertama kali terjadi. Apakah keluhan tersebut berbahaya dan perlu segera diperiksakan ke dokter?",
+    "annotations": [
+      {
+        "token": "2 hari",
+        "label": "DURASI"
+      },
+      {
+        "token": "sakit kepala",
+        "label": "GEJALA"
+      },
+      {
+        "token": "jidat",
+        "label": "LOKASI"
+      },
+      {
+        "token": "mual",
+        "label": "GEJALA"
+      },
+      {
+        "token": "sulit membuka mata",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-sakit-kepala-mendadak-bisa-menjadi-tanda-kondisi-serius-"
+  },
+  {
+    "text": "Dok, saya sedang hamil dan sudah pernah melakukan tes TTGO di trimester 2, hasilnya normal. Sekarang masuk trimester 3, apakah perlu melakukan pemeriksaan TTGO ulang lagi? Apa pertimbangannya harus cek ulang atau cukup sekali saja selama kehamilan?",
+    "annotations": [
+      {
+        "token": "hamil",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "TTGO",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "trimester 2",
+        "label": "DURASI"
+      },
+      {
+        "token": "trimester 3",
+        "label": "DURASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/perlukah-ttgo-diulang-saat-trimester-3-kehamilan-"
+  },
+  {
+    "text": "Dok, sudah seminggu ini kulit ketiak saya merah, perih, dan terasa gatal. Saya tidak pakai deodoran atau sabun baru. Apakah ini bisa jadi tanda infeksi bakteri atau masalah kulit lain?",
+    "annotations": [
+      {
+        "token": "seminggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "kulit ketiak",
+        "label": "LOKASI"
+      },
+      {
+        "token": "merah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perih",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gatal",
+        "label": "GEJALA"
+      },
+      {
+        "token": "infeksi bakteri",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-kulit-ketiak-merah-dan-gatal-tanpa-penggunaan-produk"
+  },
+  {
+    "text": "Halo dokter, saya baru suntik KB 1 bulan kemarin dan ingin tanya, apakah saya perlu menunggu beberapa hari sebelum berhubungan dengan suami? Atau KB-nya sudah langsung bekerja sejak disuntik? Saya ingin memastikan agar tidak terjadi kehamilan yang tidak diinginkan. Mohon penjelasannya ya, Dok. Makasih",
+    "annotations": [
+      {
+        "token": "suntik KB",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "1 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "kehamilan",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/suntik-kb-1-bulan--amankah-langsung-berhubungan-"
+  },
+  {
+    "text": "Alo, selamat siang dok, saya mau tanya soal tangan saya yang sering kesemutan, terutama kalau lagi main HP atau ngetik lama. Kadang rasa kesemutannya bisa bertahan cukup lama dan bikin tidak nyaman. Apakah ini berkaitan dengan saraf terjepit atau ada faktor lain, dok?",
+    "annotations": [
+      {
+        "token": "tangan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "kesemutan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "cukup lama",
+        "label": "DURASI"
+      },
+      {
+        "token": "saraf terjepit",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/tangan-sering-kesemutan--apa-penyebabnya-"
+  },
+  {
+    "text": "Hai dok, saya mau tanya. Setiap kali haid dan pakai pembalut, area kewanitaan saya sering terasa gatal, kadang sampai iritasi dan kemerahan. Gatalnya biasanya muncul setelah beberapa jam pakai pembalut. Apakah ini normal atau ada yang salah dengan cara saya menggunakan pembalut? Kira-kira apa penyebabnya dan bagaimana cara mengatasinya supaya tidak gatal terus saat haid?",
+    "annotations": [
+      {
+        "token": "gatal",
+        "label": "GEJALA"
+      },
+      {
+        "token": "area kewanitaan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "haid",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "iritasi",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kemerahan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "beberapa jam",
+        "label": "DURASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-memilih-pembalut-agar-tidak-gatal-saat-haid-"
+  },
+  {
+    "text": "Dok, akhir-akhir ini kulit di jari tangan saya suka pecah-pecah dan rasanya perih, terutama setelah sering cuci tangan pakai sabun. Kadang malah sampai ngelupas dan terasa sakit kalau kena air. Apakah ini termasuk alergi atau ada penyebab lain, dok?",
+    "annotations": [
+      {
+        "token": "pecah-pecah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perih",
+        "label": "GEJALA"
+      },
+      {
+        "token": "jari tangan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "ngelupas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "sakit",
+        "label": "GEJALA"
+      },
+      {
+        "token": "alergi",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/sering-cuci-tangan-bikin-jari-pecah-pecah-"
+  },
+  {
+    "text": "Halo dok, saya baru melahirkan sekitar 3 minggu lalu secara normal. Saya ingin mulai berolahraga lagi supaya badan terasa lebih segar dan sehat. Sebenarnya, kapan sih waktu yang paling ideal untuk mulai olahraga setelah melahirkan? Apa ada jenis olahraga tertentu yang sebaiknya dihindari dulu?",
+    "annotations": [
+      {
+        "token": "3 minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "melahirkan",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kapan-waktu-yang-tepat-mulai-olahraga-setelah-melahirkan-"
+  },
+  {
+    "text": "Halo dok, saya ingin bertanya, akhir-akhir ini saya merasa sangat sulit beradaptasi setelah kehilangan orang tua saya sekitar 2 bulan lalu. Saya jadi sering merasa sedih, sulit tidur, dan susah fokus di pekerjaan. Apakah ini termasuk gangguan penyesuaian? Kapan saya perlu mencari bantuan profesional, dan apa yang bisa saya lakukan sendiri untuk membantu proses pemulihan ini?",
+    "annotations": [
+      {
+        "token": "sulit beradaptasi",
+        "label": "GEJALA"
+      },
+      {
+        "token": "2 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "sedih",
+        "label": "GEJALA"
+      },
+      {
+        "token": "sulit tidur",
+        "label": "GEJALA"
+      },
+      {
+        "token": "susah fokus",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gangguan penyesuaian",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-gangguan-penyesuaian-setelah-kehilangan-orang-tua-"
+  },
+  {
+    "text": "Dok, mau konsul. Sudah 2 hari saya mengalami diare. Hari ini saja saya sudah 5 kali ke toilet, BAB saya cair seperti air, terus perut saya juga mules melilit. Sudah minum obat diare, tapi kenapa belum membaik ya, Dok? Mohon bantuannya ya, Dok",
+    "annotations": [
+      {
+        "token": "2 hari",
+        "label": "DURASI"
+      },
+      {
+        "token": "diare",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perut",
+        "label": "LOKASI"
+      },
+      {
+        "token": "mules melilit",
+        "label": "GEJALA"
+      },
+      {
+        "token": "obat diare",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kapan-diare-air-yang-tidak-kunjung-berhenti-perlu-diperiksakan-ke"
+  },
+  {
+    "text": "Alo, Dok. Saya tuh tiap habis makan atau makan terburu-buru pasti mengalami cegukan. Cegukannya bisa berlangsung cukup lama sampe bikin gak nyaman, Dok. Kira-kira apa ya penyebabnya, Dok? Bahaya gak ya?",
+    "annotations": [
+      {
+        "token": "cegukan",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kenapa-saya-sering-cegukan-setelah-makan--"
+  },
+  {
+    "text": "Dok, mau tanya. Di ujung jari tangan saya muncul bercak putih susu yang pinggirnya tegas, tapi gak gatal, Dok. Apakah kondisi seperti ini bisa menjadi tanda vitiligo, Dok? Apakah bisa hilang dan warna kulit saya kembali seperti semula ya?",
+    "annotations": [
+      {
+        "token": "ujung jari tangan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "bercak putih susu",
+        "label": "GEJALA"
+      },
+      {
+        "token": "vitiligo",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/mengapa-muncul-bercak-putih-pada-kulit-yang-tidak-gatal-tetapi"
+  },
+  {
+    "text": "Dok, saya mau tanya, setiap haid saya sering keluar gumpalan daging atau seperti jaringan berwarna merah tua. Biasanya terjadi di awal sampai pertengahan haid, kadang ukurannya lumayan besar. Saya jadi khawatir, apakah ini normal atau ada masalah kesehatan tertentu? Haid saya memang sering deras di 2 hari pertama. Mohon penjelasannya ya, dok.",
+    "annotations": [
+      {
+        "token": "gumpalan daging",
+        "label": "GEJALA"
+      },
+      {
+        "token": "jaringan berwarna merah tua",
+        "label": "GEJALA"
+      },
+      {
+        "token": "haid",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "2 hari pertama",
+        "label": "DURASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/gumpalan-merah-besar-saat-haid--berbahaya-atau-tidak-"
+  },
+  {
+    "text": "Hai, Dok. Mau tanya-tanya ya, Dok. Saya sedang hamil 5 bulan atau trimester 2. Di trimester 2 ini, gusi saya bengkak merah dan gampang berdarah. Apakah hal ini normal terjadi selama kehamilan ya, Dok? Soalnya, saya khawatir akan memengaruhi kehamilan, terutama kesehatan Si Kecil, Dok. Mohon penjelasannya ya, Dok. Makasih.",
+    "annotations": [
+      {
+        "token": "gusi",
+        "label": "LOKASI"
+      },
+      {
+        "token": "bengkak merah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "berdarah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "5 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "hamil",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-gusi-berdarah-saat-hamil-5-bulan-masih-tergolong-normal-"
+  },
+  {
+    "text": "Pagi, Dok. Saya mau konsultasi. Anak saya sering digigit nyamuk di bagian kaki, lalu karena gatal jadi sering digaruk sampai timbul koreng. Bekas lukanya ini menjadi hitam dan susah hilangnya. Apakah anak saya kena darah manis ya, Dok? Bagaimana cara menghilangkan bekas luka hitam ini ya, Dok? Terima kasih.",
+    "annotations": [
+      {
+        "token": "digigit nyamuk",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kaki",
+        "label": "LOKASI"
+      },
+      {
+        "token": "gatal",
+        "label": "GEJALA"
+      },
+      {
+        "token": "koreng",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bekas luka hitam",
+        "label": "GEJALA"
+      },
+      {
+        "token": "darah manis",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-bekas-gigitan-nyamuk-yang-menghitam-dan-membuat"
+  },
+  {
+    "text": "Dok, saya sudah beberapa hari ini merasakan sakit pinggang yang rasanya menjalar sampai ke bokong. Kadang-kadang, sakitnya makin parah kalau berdiri lama atau mau duduk, bahkan sampai sulit berjalan. Saya sudah coba kompres hangat, tapi belum membaik. Kira-kira ini kenapa ya, dok? Apa perlu periksa ke dokter spesialis tulang?",
+    "annotations": [
+      {
+        "token": "beberapa hari",
+        "label": "DURASI"
+      },
+      {
+        "token": "sakit pinggang",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bokong",
+        "label": "LOKASI"
+      },
+      {
+        "token": "kompres hangat",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/nyeri-pinggang-ke-bokong-bikin-susah-jalan--apa-sebabnya-"
+  },
+  {
+    "text": "Halo dok, saya baru melahirkan 4 hari yang lalu, tapi sampai sekarang ASI saya masih belum keluar juga. Padahal sudah sering coba menyusui langsung ke bayi, tapi tetap belum keluar. Apakah ini normal? Apa yang bisa saya lakukan supaya ASI lebih cepat keluar dan bayi saya tetap cukup asupan nutrisinya?",
+    "annotations": [
+      {
+        "token": "4 hari",
+        "label": "DURASI"
+      },
+      {
+        "token": "ASI",
+        "label": "GEJALA"
+      },
+      {
+        "token": "melahirkan",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mempercepat-asi-keluar-pasca-melahirkan-"
+  },
+  {
+    "text": "Selamat siang dokter, saya ingin konsultasi. Sejak beberapa minggu terakhir, saya jadi sering buang air besar setiap kali selesai makan, padahal sebelumnya tidak seperti ini. BAB saya normal, tidak cair, tapi frekuensinya jadi lebih sering. Apakah ini tanda gangguan pencernaan atau ada faktor lain yang harus saya perhatikan?",
+    "annotations": [
+      {
+        "token": "beberapa minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "buang air besar",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gangguan pencernaan",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/sering-buang-air-besar-usai-makan--normal-atau-tidak-"
+  },
+  {
+    "text": "Dok, beberapa bulan terakhir kuku tangan saya tumbuh sangat lambat, bahkan lebih lama dari biasanya. Tidak ada perubahan warna atau bentuk, hanya pertumbuhannya jadi sangat pelan. Apakah ada cara alami untuk mempercepat pertumbuhan kuku?",
+    "annotations": [
+      {
+        "token": "beberapa bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "kuku tangan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "tumbuh sangat lambat",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mempercepat-pertumbuhan-kuku--"
+  },
+  {
+    "text": "Dok, setiap habis minum obat tertentu, bibir saya jadi kering dan pecah-pecah. Apakah ada obat yang memang bisa menyebabkan bibir kering? Bagaimana solusi jika bibir pecah akibat efek samping obat?",
+    "annotations": [
+      {
+        "token": "bibir",
+        "label": "LOKASI"
+      },
+      {
+        "token": "kering",
+        "label": "GEJALA"
+      },
+      {
+        "token": "pecah-pecah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "obat",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-bibir-pecah-pecah-akibat-efek-samping-obat-"
+  },
+  {
+    "text": "Dokter, setiap kali setelah menyusui anak saya merasa sangat mengantuk dan lemas. Apakah ini normal atau ada masalah kesehatan tertentu pada ibu menyusui?",
+    "annotations": [
+      {
+        "token": "mengantuk",
+        "label": "GEJALA"
+      },
+      {
+        "token": "lemas",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/mengapa-ibu-menyusui-sering-merasa-mengantuk-dan-lemas-setelah-menyusui-"
+  },
+  {
+    "text": "Selamat pagi dok, saya ingin tanya, apakah gigi yang sudah dicabut harus langsung dipasang gigi palsu? Saya masih ragu karena takut tidak nyaman atau susah berbicara nantinya.",
+    "annotations": [
+      {
+        "token": "gigi",
+        "label": "LOKASI"
+      },
+      {
+        "token": "dicabut",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "gigi palsu",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "tidak nyaman",
+        "label": "GEJALA"
+      },
+      {
+        "token": "susah berbicara",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kapan-waktu-terbaik-pasang-gigi-palsu-setelah-cabut-gigi-"
+  },
+  {
+    "text": "Dok, saya sering merasa pusing, mudah lelah, dan tangan dingin, terutama jika telat makan. Setelah cek, tekanan darah saya cenderung rendah. Apakah pola makan mempengaruhi hipotensi, dan apa makanan yang dianjurkan untuk penderita tekanan darah rendah?",
+    "annotations": [
+      {
+        "token": "pusing",
+        "label": "GEJALA"
+      },
+      {
+        "token": "lelah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "tangan dingin",
+        "label": "GEJALA"
+      },
+      {
+        "token": "tekanan darah rendah",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "hipotensi",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/makanan-apa-yang-dianjurkan-untuk-penderita-tekanan-darah-rendah-"
+  },
+  {
+    "text": "Dokter, saya ingin bertanya. Saya belum menikah dan tidak ada keluhan di organ intim, tapi aktif secara seksual. Apakah saya sudah perlu pap smear? Bagaimana aturan pap smear untuk wanita tanpa gejala dan belum menikah?",
+    "annotations": [
+      {
+        "token": "keluhan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "pap smear",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "gejala",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-wanita-yang-belum-menikah-tetapi-aktif-secara-seksual-perlu"
+  },
+  {
+    "text": "Alo dokter, saya ingin bertanya. Apakah kleptomania bisa disembuhkan tanpa obat? Saya ingin tahu apakah terapi psikologis seperti konseling atau CBT cukup efektif untuk mengatasi kleptomania?",
+    "annotations": [
+      {
+        "token": "kleptomania",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "obat",
+        "label": "OBAT"
+      },
+      {
+        "token": "konseling",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "CBT",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-terapi-psikologis-seperti-konseling-atau-cbt-efektif-atasi-kleptomania-"
+  },
+  {
+    "text": "Dokter, saya sering dengar soal vaksin tambahan seperti rotavirus dan influenza untuk anak. Apakah vaksin ini wajib diberikan, dan apa manfaatnya dibandingkan vaksin dasar?",
+    "annotations": [
+      {
+        "token": "rotavirus",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "influenza",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-vaksin-tambahan-anak-wajib-diberikan-"
+  },
+  {
+    "text": "Dok, setelah diet dan olahraga, kolesterol saya tetap tinggi. Apakah ada faktor lain seperti stres atau kurang tidur yang bisa memengaruhi kadar kolesterol?",
+    "annotations": [
+      {
+        "token": "kolesterol",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "stres",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kurang tidur",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-stres-dan-kurang-tidur-bisa-menyebabkan-naiknya-kadar-kolesterol-"
+  },
+  {
+    "text": "Dok, saya ingin tahu, berapa lama biasanya proses pemulihan setelah persalinan normal dan caesar? Apa saja yang perlu dilakukan agar tubuh cepat pulih dan bisa merawat bayi dengan baik?",
+    "annotations": [
+      {
+        "token": "persalinan normal",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "caesar",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-masa-pemulihan-setelah-persalinan-normal-lebih-cepat-dibandingkan-caesar-"
+  },
+  {
+    "text": "Pagi dokter, saya ingin bertanya. Saya sering sekali terlambat berangkat kerja karena harus melakukan ritual tertentu, seperti mengetuk pintu beberapa kali atau memeriksa barang berulang. Bagaimana cara mengurangi kebiasaan OCD agar tidak mengganggu aktivitas?",
+    "annotations": [
+      {
+        "token": "OCD",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengurangi-kebiasaan-ocd-yang-mengganggu-aktivitas--"
+  },
+  {
+    "text": "Dok, sejak kemarin saya muntah dan diare terus-menerus. Sudah minum oralit tapi masih lemas. Apa penyebab muntaber pada orang dewasa dan bagaimana cara mengatasinya di rumah?",
+    "annotations": [
+      {
+        "token": "kemarin",
+        "label": "DURASI"
+      },
+      {
+        "token": "muntah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "diare",
+        "label": "GEJALA"
+      },
+      {
+        "token": "oralit",
+        "label": "OBAT"
+      },
+      {
+        "token": "lemas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "muntaber",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-saja-langkah-yang-dapat-dilakukan-untuk-meredakan-muntaber-di"
+  },
+  {
+    "text": "Sore dok, saya ingin bertanya. Setiap kali tertawa terbahak-bahak, saya jadi cegukan. Apakah tertawa bisa memicu cegukan dan adakah cara cepat menghentikan cegukan karena tertawa?",
+    "annotations": [
+      {
+        "token": "tertawa",
+        "label": "GEJALA"
+      },
+      {
+        "token": "cegukan",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-cepat-mengatasi-cegukan-karena-tertawa-"
+  },
+  {
+    "text": "Selamat sore dokter, saya sedang menjalani diet ketat dan berat badan turun drastis. Saya perhatikan kulit wajah dan tubuh jadi tampak lebih keriput dan kendur. Apakah penurunan berat badan yang cepat bisa menyebabkan keriput?",
+    "annotations": [
+      {
+        "token": "diet ketat",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "berat badan turun",
+        "label": "GEJALA"
+      },
+      {
+        "token": "keriput",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kulit wajah",
+        "label": "LOKASI"
+      },
+      {
+        "token": "tubuh",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-diet-ketat-bikin-kulit-jadi-keriput-"
+  },
+  {
+    "text": "Siang dok, mau tanya. Setelah operasi katarak, apakah perlu kontrol rutin ke dokter mata? Seberapa sering kontrol yang dianjurkan dan apa saja yang harus diperhatikan setelah operasi?",
+    "annotations": [
+      {
+        "token": "operasi katarak",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "dokter mata",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-saja-yang-perlu-diperhatikan-setelah-menjalani-operasi-katarak-"
+  },
+  {
+    "text": "Selamat siang dokter, saya mau tanya. Kakek saya usia 70 tahun muncul benjolan di punggung yang makin lama makin besar, tidak nyeri tapi keras saat disentuh. Apa saja kemungkinan penyebab benjolan seperti ini pada lansia?",
+    "annotations": [
+      {
+        "token": "benjolan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "punggung",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-benjolan-yang-membesar-di-punggung-lansia-"
+  },
+  {
+    "text": "Dokter, mau tanya. Saya merasa gigi saya semakin renggang dan ada celah baru yang muncul di antara gigi depan. Apakah ini hal yang normal seiring bertambah usia, atau bisa jadi tanda masalah kesehatan gigi?",
+    "annotations": [
+      {
+        "token": "gigi",
+        "label": "LOKASI"
+      },
+      {
+        "token": "renggang",
+        "label": "GEJALA"
+      },
+      {
+        "token": "celah",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/mengapa-gigi-depan-bisa-tiba-tiba-renggang-"
+  },
+  {
+    "text": "Siang dokter, mata ikan di kaki saya terasa makin sakit dan kadang bernanah. Apakah mata ikan bisa terinfeksi? Kapan saya harus ke dokter jika mata ikan sudah seperti ini?",
+    "annotations": [
+      {
+        "token": "mata ikan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "kaki",
+        "label": "LOKASI"
+      },
+      {
+        "token": "sakit",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bernanah",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-yang-harus-dilakukan-jika-mata-ikan-bernanah-"
+  },
+  {
+    "text": "Dok, setelah operasi katarak, ayah saya mengeluh mata terasa kering dan kadang buram lagi. Apakah ini efek samping yang normal? Bagaimana cara merawat mata setelah operasi katarak?",
+    "annotations": [
+      {
+        "token": "mata",
+        "label": "LOKASI"
+      },
+      {
+        "token": "katarak",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "kering",
+        "label": "GEJALA"
+      },
+      {
+        "token": "buram",
+        "label": "GEJALA"
+      },
+      {
+        "token": "operasi katarak",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-saja-efek-samping-yang-dapat-terjadi-setelah-operasi-katarak-"
+  },
+  {
+    "text": "Selamat siang dokter, saya sering merasa bahu kaku setelah tidur miring terlalu lama. Kadang sampai sulit mengangkat tangan di pagi hari. Apakah posisi tidur bisa menyebabkan bahu kaku, dan bagaimana cara mencegahnya?",
+    "annotations": [
+      {
+        "token": "bahu kaku",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bahu",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-bahu-kaku-setelah-tidur-miring-terlalu-lama-"
+  },
+  {
+    "text": "Dok, saya bintitan saya sudah sembuh, tapi meninggalkan bekas kemerahan dan benjolan kecil. Apakah bekas bintitan bisa hilang sendiri, dan adakah cara mempercepat pemulihan bekas bintitan di kelopak mata?",
+    "annotations": [
+      {
+        "token": "bintitan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "bekas kemerahan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "benjolan kecil",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kelopak mata",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-menghilangkan-bekas-bintitan-di-mata-"
+  },
+  {
+    "text": "Alo dok, anak saya sering muncul biang keringat di dahi dan pipi setelah bermain di luar rumah. Apakah biang keringat di wajah anak bisa menyebabkan bekas atau noda hitam? Bagaimana cara aman mengatasinya?",
+    "annotations": [
+      {
+        "token": "biang keringat",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "dahi",
+        "label": "LOKASI"
+      },
+      {
+        "token": "pipi",
+        "label": "LOKASI"
+      },
+      {
+        "token": "biang keringat",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "wajah",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-biang-keringat-di-wajah-anak-bisa-meninggalkan-bekas-"
+  },
+  {
+    "text": "Dok, saya sering merasa gusi bengkak dan berdarah saat menyikat gigi. Apakah ini tanda penyakit gusi tertentu dan bagaimana cara merawat gusi agar tidak mudah berdarah?",
+    "annotations": [
+      {
+        "token": "gusi bengkak",
+        "label": "GEJALA"
+      },
+      {
+        "token": "berdarah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gusi",
+        "label": "LOKASI"
+      },
+      {
+        "token": "penyakit gusi",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-gusi-mudah-berdarah-dan-bagaimana-cara-mengatasinya-"
+  },
+  {
+    "text": "Dok, anak saya usia 7 tahun tiba-tiba muncul benjolan di belakang telinga, terasa keras tapi tidak sakit. Apa penyebab benjolan seperti ini pada anak, dan apakah perlu diperiksakan segera?",
+    "annotations": [
+      {
+        "token": "benjolan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "belakang telinga",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-benjolan-di-belakang-telinga-pada-anak-"
+  },
+  {
+    "text": "Alo dokter, saya pria, pernah kena kencing nanah (gonore) tahun lalu dan sudah diobati. Apakah bisa terkena lagi jika berhubungan tanpa pengaman, atau tubuh jadi kebal setelah sembuh?",
+    "annotations": [
+      {
+        "token": "kencing nanah (gonore)",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bisakah-gonore-kambuh-setelah-sembuh-"
+  },
+  {
+    "text": "Siang dokter, setiap pagi anak saya sarapan hanya minum susu atau makan roti saja. Apakah sarapan seperti ini cukup untuk kebutuhan gizi anak? Apa menu sarapan sehat yang direkomendasikan untuk anak usia sekolah?",
+    "annotations": [],
+    "url": "https://www.alodokter.com/komunitas/topic/menu-sarapan-seperti-apa-yang-baik-untuk-anak-sekolah-"
+  },
+  {
+    "text": "Selamat siang dokter, setiap kali menjelang haid, keputihan saya berubah jadi agak kehijauan dan kadang disertai rasa nyeri di perut bawah. Apakah perubahan warna keputihan saat PMS itu normal atau ada infeksi?",
+    "annotations": [
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perut bawah",
+        "label": "LOKASI"
+      },
+      {
+        "token": "keputihan",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-keputihan-hijau-sebelum-menstruasi-menandakan-adanya-infeksi-"
+  },
+  {
+    "text": "Selamat siang dokter, saya sedang hamil dan sering mengantuk di pagi serta siang hari, padahal malamnya kadang susah tidur. Apakah pola tidur yang tidak teratur saat hamil bisa menyebabkan ngantuk di siang hari? Bagaimana cara memperbaiki pola tidur agar lebih segar?",
+    "annotations": [
+      {
+        "token": "hamil",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "mengantuk",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-rasa-kantuk-berlebihan-di-siang-hari-saat"
+  },
+  {
+    "text": "Siang dokter, apakah pengobatan stroke karena penyumbatan pembuluh darah berbeda dengan stroke akibat pecahnya pembuluh darah? Apa saja perbedaan penanganannya di rumah sakit?",
+    "annotations": [
+      {
+        "token": "stroke",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "penyumbatan pembuluh darah",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "pecahnya pembuluh darah",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-perbedaan-penanganan-stroke-karena-sumbatan-dan-karena-pecah-pembuluh"
+  },
+  {
+    "text": "Selamat siang dokter, saya perokok aktif dan baru sadar kulit wajah saya mulai banyak keriput, terutama di sekitar mulut. Apakah merokok bisa mempercepat penuaan kulit? Bagaimana cara memperbaiki kondisi kulit jika sudah terlanjur keriput karena rokok?",
+    "annotations": [
+      {
+        "token": "keriput",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kulit wajah",
+        "label": "LOKASI"
+      },
+      {
+        "token": "merokok",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-merokok-sebabkan-keriput-di-wajah-"
+  },
+  {
+    "text": "Saya perempuan usia 35 tahun, sudah menikah 8 tahun. Saya merasa sulit mencapai orgasme walaupun sudah cukup lama berhubungan. Apakah ini termasuk kelainan seksual pada wanita? Apakah ada pemeriksaan yang perlu dilakukan?",
+    "annotations": [
+      {
+        "token": "sulit mencapai orgasme",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kelainan seksual",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "pemeriksaan",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/wanita-sulit-orgasme-setelah-menikah--apa-ini-kelainan-seksual-"
+  },
+  {
+    "text": "Dok, saya laki-laki usia 28 tahun dan merasa kurang tertarik dengan hubungan seksual, padahal pasangan saya sudah berusaha membangun suasana yang nyaman. Apakah ini termasuk kelainan seksual? Bagaimana cara mengetahui penyebabnya dan apa yang sebaiknya saya lakukan?",
+    "annotations": [
+      {
+        "token": "kurang tertarik dengan hubungan seksual",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kelainan seksual",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kurang-tertarik-seks--apakah-termasuk-kelainan-seksual-"
+  },
+  {
+    "text": "Siang, Dok. Saya mau tanya, anak saya didiagnosis mengalami dwarfisme, padahal saya dan suami bertubuh normal. Apa saja sih penyebab dwarfisme pada anak meski kedua orang tuanya tidak punya riwayat tubuh pendek? Apakah ada faktor lain selain genetik yang bisa menyebabkan kondisi ini?",
+    "annotations": [
+      {
+        "token": "dwarfisme",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-dwarfisme-pada-anak-dari-orang-tua-normal-"
+  },
+  {
+    "text": "Halo, Dok, saya ibu rumah tangga usia 35 tahun, akhir-akhir ini saya menjalani diet ketat untuk menurunkan berat badan. Tapi, saya jadi sering merasa cemas, mudah marah, dan kadang merasa sedih tanpa alasan. Apakah diet ketat memang bisa memengaruhi kesehatan mental seperti ini? Apa saja efek diet ketat pada kondisi psikologis seseorang?",
+    "annotations": [
+      {
+        "token": "cemas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "mudah marah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "sedih",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-diet-ketat-bisa-memengaruhi-kesehatan-mental-"
+  },
+  {
+    "text": "Hai, Dok, saya ingin bertanya tentang komplikasi infeksi hanta virus pada paru-paru. Saya baca infeksi ini bisa menyebabkan masalah serius di paru-paru, seperti sesak napas hebat atau bahkan gagal napas. Bisa dijelaskan komplikasi apa saja yang mungkin terjadi pada paru-paru akibat infeksi hanta virus? Apakah bisa menyebabkan kerusakan permanen atau butuh alat bantu napas?",
+    "annotations": [
+      {
+        "token": "infeksi hanta virus",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "paru-paru",
+        "label": "LOKASI"
+      },
+      {
+        "token": "sesak napas hebat",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gagal napas",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-infeksi-hanta-virus-bisa-merusak-paru-paru-"
+  },
+  {
+    "text": "Siang, Dokter. Saya sedang hamil 7 bulan dan akhir-akhir ini sering mengalami wasir berdarah setiap selesai buang air besar. Darahnya biasanya keluar sedikit, tapi kadang bikin saya khawatir. Apakah wasir berdarah saat hamil itu berbahaya? Bagaimana cara mengatasi dan mencegah agar tidak makin parah selama kehamilan?",
+    "annotations": [
+      {
+        "token": "hamil",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "7 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "wasir berdarah",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/wasir-berdarah-saat-hamil-7-bulan--apakah-berbahaya-dan-bagaimana"
+  },
+  {
+    "text": "Dok, saya habis liburan ke pantai dan sekarang kulit saya belang karena sunburn, terutama di tangan dan wajah. Selain warnanya jadi tidak rata, kulit juga terasa kering dan agak perih. Bagaimana cara merawat kulit belang akibat sunburn agar cepat kembali rata dan sehat? Apakah ada krim atau perawatan khusus yang sebaiknya saya gunakan?",
+    "annotations": [
+      {
+        "token": "sunburn",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "tangan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "wajah",
+        "label": "LOKASI"
+      },
+      {
+        "token": "kering",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perih",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kulit belang",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-merawat-kulit-wajah-dan-tangan-yang-belang-akibat"
+  },
+  {
+    "text": "Halo dokter, saya wanita usia 40 tahun dan punya bercak keratosis seboroik di leher, wajah, dan punggung yang cukup mengganggu penampilan. Saya ingin tahu, adakah cara menghilangkan keratosis seboroik tanpa operasi atau tindakan bedah? Apakah ada salep, obat oles, atau perawatan medis lain yang efektif untuk mengatasinya?",
+    "annotations": [
+      {
+        "token": "keratosis seboroik",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "leher",
+        "label": "LOKASI"
+      },
+      {
+        "token": "wajah",
+        "label": "LOKASI"
+      },
+      {
+        "token": "punggung",
+        "label": "LOKASI"
+      },
+      {
+        "token": "mengganggu penampilan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "operasi",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "tindakan bedah",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "salep",
+        "label": "OBAT"
+      },
+      {
+        "token": "obat oles",
+        "label": "OBAT"
+      },
+      {
+        "token": "perawatan medis",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/adakah-cara-lain-untuk-menghilangkan-keratosis-seboroik-tanpa-operasi-"
+  },
+  {
+    "text": "Siang, Dok. Salam sejahtera dari Bali. Saya laki-laki usia 44 tahun, mau tanya-tanya, Dok. Saya punya keluhan sering kesemutan dan nyeri di betis saat berjalan agak jauh, lalu hilang kalau istirahat. Saya baca itu bisa jadi gejala penyakit arteri perifer. Pemeriksaan apa saja yang biasanya dilakukan untuk memastikan diagnosis penyakit arteri perifer? Apakah perlu tes khusus atau cukup dengan pemeriksaan fisik saja?",
+    "annotations": [
+      {
+        "token": "kesemutan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "betis",
+        "label": "LOKASI"
+      },
+      {
+        "token": "penyakit arteri perifer",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "pemeriksaan fisik",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/pemeriksaan-apa-saja-yang-perlu-dijalani-untuk-memastikan-penyakit-arteri"
+  },
+  {
+    "text": "Dok, saya laki-laki usia 25 tahun, mau tanya, tadi pagi tangan kanan saya tiba-tiba terasa lemah mendadak, sulit mengangkat benda, dan rasanya agak kebas. Sebelumnya tidak ada cedera atau aktivitas berat. Apakah kondisi seperti ini berbahaya dan perlu segera diperiksakan? Kira-kira apa saja penyebab tangan kanan tiba-tiba lemah seperti ini?",
+    "annotations": [
+      {
+        "token": "lemah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kebas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "tangan kanan",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/tangan-kanan-tiba-tiba-lemah-dan-kebas--apa-sebabnya-"
+  },
+  {
+    "text": "Hai, Dokter. Saya perempuan usia 28 tahun, mau tanya soal keluhan yang saya alami. Saya sering mengalami nyeri pada jari-jari tangan setiap bangun tidur. Rasanya kaku dan agak susah digerakkan, tapi biasanya membaik setelah beberapa jam beraktivitas. Apakah kondisi ini normal atau ada kaitannya dengan penyakit tertentu seperti rematik? Bagaimana cara mengatasinya agar tidak mengganggu aktivitas pagi hari?",
+    "annotations": [
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "jari-jari tangan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "kaku",
+        "label": "GEJALA"
+      },
+      {
+        "token": "rematik",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/jari-tangan-sering-terasa-nyeri-di-pagi-hari--apa-penyebab"
+  }
+]
