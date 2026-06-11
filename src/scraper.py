@@ -48,9 +48,12 @@ def get_complaint_text(url):
 
 results = []
 
-for page in range(1, 21):
+for page in range(1, 51):
     links = get_discussion_links(page)
     print(f"Page {page}: found {len(links)} links")
+    if not links:
+        print(f"No more links found at page {page}, stopping.")
+        break
     for i, link in enumerate(links):
         text = get_complaint_text(link)
         if text:
