@@ -4,7 +4,7 @@
     "annotations": [
       {
         "token": "vaksin BCG",
-        "label": "OBAT"
+        "label": "TINDAKAN"
       },
       {
         "token": "TBC",
@@ -307,10 +307,6 @@
       {
         "token": "operasi",
         "label": "TINDAKAN"
-      },
-      {
-        "token": "obat",
-        "label": "OBAT"
       }
     ],
     "url": "https://www.alodokter.com/komunitas/topic/kalazion-besar--adakah-solusi-selain-operasi-"
@@ -379,10 +375,6 @@
       {
         "token": "stroke",
         "label": "PENYAKIT"
-      },
-      {
-        "token": "obat",
-        "label": "OBAT"
       },
       {
         "token": "asam folat",
@@ -472,10 +464,6 @@
   {
     "text": "Dok, saya baru hamil 2 bulan dan sering mual kalau makan telur rebus, tapi ingin tetap dapat manfaat proteinnya. Ada tidak cara khusus mengolah atau menyajikan telur supaya tidak bikin mual di awal kehamilan?",
     "annotations": [
-      {
-        "token": "2 bulan",
-        "label": "DURASI"
-      },
       {
         "token": "mual",
         "label": "GEJALA"
@@ -637,14 +625,6 @@
     "text": "Dok, saya sedang hamil 8 bulan dan sering mengalami asam lambung naik, kadang sampai dada terasa sesak dan sulit bernapas. Kalau duduk atau tidur, keluhannya makin parah. Apakah kondisi ini berbahaya untuk janin? Apa yang bisa saya lakukan agar gejalanya berkurang?",
     "annotations": [
       {
-        "token": "hamil",
-        "label": "PENYAKIT"
-      },
-      {
-        "token": "8 bulan",
-        "label": "DURASI"
-      },
-      {
         "token": "asam lambung naik",
         "label": "GEJALA"
       },
@@ -777,10 +757,6 @@
     "text": "Alo, Dok, bayi saya lahir dengan berat badan 1,9 kg dan sekarang usianya sudah 3 minggu. Saya ingin tahu, apa saja syarat bayi dengan berat badan rendah agar bisa mendapatkan vaksin BCG? Apakah harus menunggu berat badan tertentu, dan apa saja yang perlu diperhatikan sebelum vaksinasi?",
     "annotations": [
       {
-        "token": "3 minggu",
-        "label": "DURASI"
-      },
-      {
         "token": "vaksin BCG",
         "label": "TINDAKAN"
       }
@@ -901,10 +877,6 @@
         "label": "PENYAKIT"
       },
       {
-        "token": "67 tahun",
-        "label": "DURASI"
-      },
-      {
         "token": "kesulitan tidur",
         "label": "GEJALA"
       },
@@ -969,10 +941,6 @@
       {
         "token": "cranial helmet",
         "label": "TINDAKAN"
-      },
-      {
-        "token": "8 bulan",
-        "label": "DURASI"
       }
     ],
     "url": "https://www.alodokter.com/komunitas/topic/bagaimana-agar-terapi-cranial-helmet-tidak-bikin-bayi-rewel-"
@@ -983,10 +951,6 @@
       {
         "token": "speech delay",
         "label": "PENYAKIT"
-      },
-      {
-        "token": "4 tahun",
-        "label": "DURASI"
       }
     ],
     "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-melatih-bicara-anak-dengan-speech-delay-di-rumah-"
@@ -1369,14 +1333,6 @@
     "text": "Alo, Dok, bayi saya lahir dengan berat badan 1,9 kg dan sekarang usianya sudah 3 minggu. Saya ingin tahu, apa saja syarat bayi dengan berat badan rendah agar bisa mendapatkan vaksin BCG? Apakah harus menunggu berat badan tertentu, dan apa saja yang perlu diperhatikan sebelum vaksinasi?",
     "annotations": [
       {
-        "token": "1,9 kg",
-        "label": "GEJALA"
-      },
-      {
-        "token": "3 minggu",
-        "label": "DURASI"
-      },
-      {
         "token": "vaksin BCG",
         "label": "TINDAKAN"
       }
@@ -1409,10 +1365,6 @@
       {
         "token": "pengobatan",
         "label": "TINDAKAN"
-      },
-      {
-        "token": "obat",
-        "label": "OBAT"
       }
     ],
     "url": "https://www.alodokter.com/komunitas/topic/apa-saja-pilihan-pengobatan-tmj-syndrome-"
@@ -1423,10 +1375,6 @@
       {
         "token": "plagiocephaly",
         "label": "PENYAKIT"
-      },
-      {
-        "token": "6 bulan",
-        "label": "DURASI"
       },
       {
         "token": "gelisah",
@@ -1503,10 +1451,6 @@
       {
         "token": "Alzheimer",
         "label": "PENYAKIT"
-      },
-      {
-        "token": "67 tahun",
-        "label": "DURASI"
       },
       {
         "token": "kesulitan tidur",
@@ -1753,20 +1697,8 @@
         "label": "PENYAKIT"
       },
       {
-        "token": "33 minggu",
-        "label": "DURASI"
-      },
-      {
-        "token": "1,7 kg",
-        "label": "LOKASI"
-      },
-      {
         "token": "1 bulan",
         "label": "DURASI"
-      },
-      {
-        "token": "2 kg",
-        "label": "LOKASI"
       },
       {
         "token": "vaksinasi BCG",
@@ -1921,10 +1853,6 @@
         "label": "PENYAKIT"
       },
       {
-        "token": "10 tahun",
-        "label": "DURASI"
-      },
-      {
         "token": "retardasi mental sedang",
         "label": "PENYAKIT"
       },
@@ -2023,10 +1951,6 @@
       {
         "token": "KB spiral",
         "label": "TINDAKAN"
-      },
-      {
-        "token": "haid",
-        "label": "GEJALA"
       }
     ],
     "url": "https://www.alodokter.com/komunitas/topic/kb-spiral--solusi-atau-masalah-untuk-haid-tidak-teratur-"
@@ -2203,10 +2127,6 @@
         "label": "PENYAKIT"
       },
       {
-        "token": "7 tahun",
-        "label": "DURASI"
-      },
-      {
         "token": "retardasi mental ringan",
         "label": "PENYAKIT"
       },
@@ -2257,14 +2177,6 @@
         "label": "TINDAKAN"
       },
       {
-        "token": "8 bulan",
-        "label": "DURASI"
-      },
-      {
-        "token": "kehamilan",
-        "label": "PENYAKIT"
-      },
-      {
         "token": "terlilit tali pusat",
         "label": "GEJALA"
       },
@@ -2278,14 +2190,6 @@
   {
     "text": "Dok, saya hamil 8 bulan dan belum pernah TTGO sama sekali. Apakah masih perlu melakukan pemeriksaan TTGO di trimester 3, atau pemeriksaan gula darah biasa sudah cukup untuk deteksi diabetes gestasional?",
     "annotations": [
-      {
-        "token": "8 bulan",
-        "label": "DURASI"
-      },
-      {
-        "token": "hamil",
-        "label": "KEADAAN"
-      },
       {
         "token": "TTGO",
         "label": "TINDAKAN"
