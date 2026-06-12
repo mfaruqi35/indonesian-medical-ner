@@ -48,7 +48,7 @@ def get_complaint_text(url):
 
 results = []
 
-for page in range(52, 71):
+for page in range(72, 101):
     links = get_discussion_links(page)
     print(f"Page {page}: found {len(links)} links")
     if not links:
