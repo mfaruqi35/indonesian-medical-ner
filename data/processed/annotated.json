@@ -8162,5 +8162,493 @@
       }
     ],
     "url": "https://www.alodokter.com/komunitas/topic/apakah-kulit-kering-dan-sangat-bersisik-tanda-penyakit-tertentu-"
+  },
+  {
+    "text": "Hai, Dok, saya wanita usia 28 tahun. Setiap kali selesai berhubungan seksual, saya sering mengalami anyang-anyangan, yaitu rasa ingin buang air kecil terus-menerus dan kadang terasa perih saat kencing. Gejala ini biasanya muncul beberapa jam setelah berhubungan dan bisa berlangsung sampai satu hari. Apakah kondisi ini normal atau ada kaitannya dengan infeksi saluran kemih? Apa yang sebaiknya saya lakukan agar tidak sering anyang-anyangan setelah berhubungan?",
+    "annotations": [
+      {
+        "token": "anyang-anyangan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "rasa ingin buang air kecil terus-menerus",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perih",
+        "label": "GEJALA"
+      },
+      {
+        "token": "beberapa jam",
+        "label": "DURASI"
+      },
+      {
+        "token": "satu hari",
+        "label": "DURASI"
+      },
+      {
+        "token": "infeksi saluran kemih",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kenapa-sering-anyang-anyangan-setelah-berhubungan-seksual-"
+  },
+  {
+    "text": "Alo, selamat pagi menjelang siang, Dok. Saya pria usia 22 tahun dan belum sunat. Saya sering menemukan kotoran putih seperti pasta di sekitar kepala penis, terutama di bawah kulup. Kadang juga tercium bau tidak sedap, meski saya sudah berusaha membersihkan setiap mandi. Apakah kotoran putih ini berbahaya, dan bagaimana cara terbaik membersihkannya agar tidak muncul lagi?",
+    "annotations": [
+      {
+        "token": "kotoran putih",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kepala penis",
+        "label": "LOKASI"
+      },
+      {
+        "token": "bau tidak sedap",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-kotoran-putih-di-penis-yang-belum-sunat-"
+  },
+  {
+    "text": "Halo, Dokter. Saya wanita usia 30 tahun, akhir-akhir ini sering merasakan nyeri di area klitoris, terutama setelah berhubungan seksual atau saat membersihkan area kemaluan. Kadang-kadang nyerinya seperti tertusuk, kadang terasa ngilu berjam-jam. Tidak ada luka atau bengkak yang terlihat. Apakah nyeri klitoris seperti ini wajar, dan apa saja penyebabnya? Kapan saya perlu khawatir dan memeriksakan diri ke dokter?",
+    "annotations": [
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "klitoris",
+        "label": "LOKASI"
+      },
+      {
+        "token": "berjam-jam",
+        "label": "DURASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-nyeri-klitoris-setelah-berhubungan-seksual-"
+  },
+  {
+    "text": "Alo, Dokter. Saya pria usia 34 tahun, mau tanya soal keluhan yang saya alami beberapa hari terakhir. Saya sering merasakan kesemutan di setengah bagian tubuh, misalnya hanya di sisi kiri saja dari kepala sampai kaki. Kesemutan ini bisa berlangsung beberapa menit sampai satu jam, kadang muncul tiba-tiba tanpa sebab jelas. Apakah kondisi ini berbahaya dan apa saja kemungkinan penyebabnya? Kapan sebaiknya saya harus periksa ke dokter?",
+    "annotations": [
+      {
+        "token": "beberapa hari",
+        "label": "DURASI"
+      },
+      {
+        "token": "kesemutan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "setengah bagian tubuh",
+        "label": "LOKASI"
+      },
+      {
+        "token": "beberapa menit",
+        "label": "DURASI"
+      },
+      {
+        "token": "satu jam",
+        "label": "DURASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-kesemutan-di-setengah-badan-"
+  },
+  {
+    "text": "Siang, Dok, saya ingin bertanya soal kebiasaan tidur berjalan yang dialami adik saya (usia 15 tahun). Kadang saat malam hari, dia bisa bangun lalu berjalan-jalan di dalam rumah tanpa sadar, bahkan pernah hampir keluar rumah. Setelah dibangunkan, dia tidak ingat apa-apa keesokan harinya. Apakah tidur berjalan ini berbahaya? Apa penyebabnya dan bagaimana cara mengatasinya supaya tidak sering terjadi?",
+    "annotations": [
+      {
+        "token": "tidur berjalan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "malam hari",
+        "label": "DURASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-tidur-berjalan-pada-remaja-"
+  },
+  {
+    "text": "Dok, saya perempuan usia 34 tahun, baru melahirkan sekitar 2 minggu lalu. Sejak itu, saya sering merasa emosi meledak-ledak, mudah marah, suami salah dikit saya bisa banting barang dan teriak, bahkan kadang saya menangis tanpa sebab yang jelas. Padahal sebelumnya saya tidak seperti ini. Saya khawatir ini bisa berdampak ke hubungan dengan keluarga dan bayi saya. Apakah perubahan emosi seperti ini wajar setelah melahirkan, atau ada yang perlu saya waspadai?",
+    "annotations": [
+      {
+        "token": "2 minggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "emosi meledak-ledak",
+        "label": "GEJALA"
+      },
+      {
+        "token": "mudah marah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "menangis",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/emosi-tidak-stabil-pasca-melahirkan--harus-bagaimana-"
+  },
+  {
+    "text": "Pagi, Dok. Saya mau tanya soal keluhan ayah mertua saya usianya 71 tahun. Sejak beberapa tahun terakhir, beliau sering mengeluh takut mati. Makin kesini bukan cuma mengeluh, Dok, tetapi beliau juga jadi sering cemas, susah tidur, dan kadang menangis karena merasa takut akan kematian, baik kematian dirinya sendiri maupun orang terdekat. Kami sekeluarga jadi bingung harus bersikap seperti apa. Apakah kondisi ini termasuk thanatophobia? Bagaimana cara membantu mertua agar tidak terus-terusan merasa takut mati?",
+    "annotations": [
+      {
+        "token": "beberapa tahun terakhir",
+        "label": "DURASI"
+      },
+      {
+        "token": "takut mati",
+        "label": "GEJALA"
+      },
+      {
+        "token": "cemas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "susah tidur",
+        "label": "GEJALA"
+      },
+      {
+        "token": "thanatophobia",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengatasi-rasa-takut-kematian-"
+  },
+  {
+    "text": "Dok, saya laki-laki usia 19 tahun, mau tanya soal jari tangan saya yang sering nyangkut dan terasa kaku, terutama saat digerakkan setelah bangun tidur. Kadang kalau mau meluruskan jari, rasanya seperti ada yang mengganjal dan harus dipaksa, bahkan sampai bunyi 'klik'. Apakah kondisi ini termasuk trigger finger? Apa penyebabnya dan bagaimana cara mengatasinya?",
+    "annotations": [
+      {
+        "token": "jari tangan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "nyangkut",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kaku",
+        "label": "GEJALA"
+      },
+      {
+        "token": "trigger finger",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-jari-kaku-dan-nyangkut-tanda-trigger-finger-"
+  },
+  {
+    "text": "Siang, Dok. Saya perempuan usia 24 tahun, ingin bertanya soal agoraphobia. Akhir-akhir ini saya sering merasa cemas dan takut berlebihan kalau harus keluar rumah, apalagi ke tempat ramai seperti mall atau pasar. Kadang sampai keringat dingin, jantung berdebar, bahkan ingin cepat pulang. Saya jadi sering menghindari aktivitas di luar rumah. Apakah ini termasuk agoraphobia? Bagaimana cara mengatasinya supaya bisa beraktivitas normal lagi?",
+    "annotations": [
+      {
+        "token": "cemas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "takut berlebihan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "keringat dingin",
+        "label": "GEJALA"
+      },
+      {
+        "token": "jantung berdebar",
+        "label": "GEJALA"
+      },
+      {
+        "token": "agoraphobia",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-ciri-ciri-agoraphobia-dan-cara-mengatasinya-"
+  },
+  {
+    "text": "Selamat siang, Dokter. Saya punya keponakan usia 10 tahun yang sampai sekarang belum lancar membaca, menulis, dan berhitung. Selain itu, dia juga agak sulit bersosialisasi dan kadang tidak mengerti candaan teman-temannya. Apakah ini bisa dikategorikan sebagai retardasi mental? Apa yang harus dilakukan keluarga untuk mendukung tumbuh kembangnya?",
+    "annotations": [
+      {
+        "token": "retardasi mental",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "sulit bersosialisasi",
+        "label": "GEJALA"
+      },
+      {
+        "token": "tidak mengerti candaan teman-temannya",
+        "label": "GEJALA"
+      },
+      {
+        "token": "belum lancar membaca, menulis, dan berhitung",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-saja-tanda-tanda-retardasi-mental-pada-anak-"
+  },
+  {
+    "text": "Pagi, Dok. Saya ingin konsultasi soal anak saya usia 3 tahun, yang selalu menolak keras saat akan dipotong kuku atau rambut. Dia bilang merasa tidak nyaman, geli, dan kadang sampai menjerit atau menolak disentuh. Apa anak saya hipersensitif sentuhan, atau tanda sensory issue pada anak? Bagaimana langkah awal yang bisa saya lakukan untuk membantunya agar tidak stres setiap kali potong kuku atau rambut?",
+    "annotations": [
+      {
+        "token": "tidak nyaman",
+        "label": "GEJALA"
+      },
+      {
+        "token": "geli",
+        "label": "GEJALA"
+      },
+      {
+        "token": "menjerit",
+        "label": "GEJALA"
+      },
+      {
+        "token": "hipersensitif sentuhan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "sensory issue",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/anak-selalu-menolak-sampai-menjerit-saat-potong-kuku-dan-rambut-"
+  },
+  {
+    "text": "Selamat pagi, Dok, izin bertanya. Saya punya kakak usia 35 tahun, baru-baru ini ia didiagnosis akromegali. Belakangan ini wajahnya tampak berubah, tangan dan kakinya juga membesar. Selain perubahan fisik, apakah ada gejala lain yang perlu diwaspadai? Bagaimana proses pengobatan akromegali dan apakah pasien bisa hidup normal setelah menjalani terapi?",
+    "annotations": [
+      {
+        "token": "akromegali",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "wajahnya",
+        "label": "LOKASI"
+      },
+      {
+        "token": "tangan dan kakinya",
+        "label": "LOKASI"
+      },
+      {
+        "token": "perubahan fisik",
+        "label": "GEJALA"
+      },
+      {
+        "token": "pengobatan akromegali",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "terapi",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-proses-pengobatan-akromegali-"
+  },
+  {
+    "text": "Saya laki-laki usia 28 tahun, ingin bertanya, Dok, akhir-akhir ini saya sering merasa lemas, mudah lelah, dan kadang-kadang kulit serta bagian putih mata saya agak kekuningan. Saya juga mengalami detak jantung cepat dan sesak napas saat beraktivitas ringan. Apakah gejala seperti ini bisa mengarah ke anemia hemolitik? Apakah ada gejala khas lain yang perlu saya waspadai?",
+    "annotations": [
+      {
+        "token": "lemas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "mudah lelah",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kulit",
+        "label": "LOKASI"
+      },
+      {
+        "token": "bagian putih mata",
+        "label": "LOKASI"
+      },
+      {
+        "token": "kekuningan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "detak jantung cepat",
+        "label": "GEJALA"
+      },
+      {
+        "token": "sesak napas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "anemia hemolitik",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-saja-gejala-khas-anemia-hemolitik-"
+  },
+  {
+    "text": "Selamat siang, Dokter, saya perempuan umur 35 tahun. Beberapa hari ini saya merasakan ada benjolan lunak di bawah rahang kanan, kadang terasa nyeri kalau ditekan, dan saya juga sempat demam ringan. Apakah benjolan ini bisa disebabkan infeksi atau ada penyakit lain yang perlu saya waspadai?",
+    "annotations": [
+      {
+        "token": "beberapa hari",
+        "label": "DURASI"
+      },
+      {
+        "token": "benjolan lunak",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bawah rahang kanan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "demam ringan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "infeksi",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/benjolan-di-bawah-rahang-kanan-disertai-nyeri--kenapa-ya-"
+  },
+  {
+    "text": "Pagi, Dok, mau bertanya seputar anoreksia. Saya punya adik perempuan usia 16 tahun yang akhir-akhir ini sering menolak makan dan berat badannya turun drastis dalam 3 bulan terakhir. Dia juga sering merasa cemas soal bentuk tubuhnya dan suka membandingkan dirinya dengan teman-temannya. Apakah ini bisa jadi tanda anoreksia? Apa yang sebaiknya kami lakukan sebagai keluarga?",
+    "annotations": [
+      {
+        "token": "anoreksia",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "akhir-akhir ini",
+        "label": "DURASI"
+      },
+      {
+        "token": "berat badan turun drastis",
+        "label": "GEJALA"
+      },
+      {
+        "token": "3 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "menolak makan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "cemas",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-saja-tanda-tanda-anoreksia-dan-bagaimana-cara-mengatasinya-"
+  },
+  {
+    "text": "Halo, Dokter, saya mau tanya soal anak saya yang usianya 8 tahun. Dia sering kesulitan memahami instruksi lisan, terutama di tempat yang agak ramai atau berisik. Kadang dia juga suka salah mengartikan apa yang saya ucapkan. Apakah ini bisa jadi tanda auditory processing disorder? Bagaimana cara memastikannya dan langkah apa yang sebaiknya saya lakukan?",
+    "annotations": [
+      {
+        "token": "kesulitan memahami instruksi lisan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "salah mengartikan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "auditory processing disorder",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-mengenali-auditory-processing-disorder-pada-anak-"
+  },
+  {
+    "text": "Selamat pagi, Dok. Saya perempuan usia 26 tahun, mau tanya terkait keluhan yang saya alami belakangan ini. Saya sering merasakan nyeri dan bengkak di bawah rahang terutama saat makan, lalu kadang ada benjolan kecil yang terasa keras. Setelah saya baca, katanya bisa jadi karena batu kelenjar air liur. Apakah benar gejala seperti ini mengarah ke batu kelenjar air liur? Bagaimana cara memastikan dan mengatasinya?",
+    "annotations": [
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bengkak",
+        "label": "GEJALA"
+      },
+      {
+        "token": "benjolan kecil",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bawah rahang",
+        "label": "LOKASI"
+      },
+      {
+        "token": "batu kelenjar air liur",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-nyeri-dan-benjolan-di-bawah-rahang-karena-batu-kelenjar"
+  },
+  {
+    "text": "Selamat sore, Dok. Saya ibu dari bayi usia 7 bulan yang disarankan pakai cranial helmet oleh dokter karena bentuk kepalanya tidak simetris. Apakah penggunaan cranial helmet benar-benar efektif untuk memperbaiki bentuk kepala bayi? Kapan waktu terbaik untuk mulai menggunakan helm ini dan berapa lama biasanya dipakai?",
+    "annotations": [
+      {
+        "token": "7 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "bentuk kepalanya tidak simetris",
+        "label": "GEJALA"
+      },
+      {
+        "token": "cranial helmet",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/berapa-lama-bayi-kepala-peyang-harus-pakai-cranial-helmet-"
+  },
+  {
+    "text": "Halo, Dokter, mau konsultasi. Saya cowok usia 28 tahun, kemarin habis latihan angkat berat di gym, eh sekarang leher saya sakit banget dan nyerinya sampai ke lengan kanan. Kalau digerakkan makin nyeri, kadang sampai kesemutan juga. Ini termasuk cedera apa ya Dok, dan apakah harus segera diperiksakan atau bisa diatasi sendiri dulu di rumah?",
+    "annotations": [
+      {
+        "token": "sakit",
+        "label": "GEJALA"
+      },
+      {
+        "token": "nyeri",
+        "label": "GEJALA"
+      },
+      {
+        "token": "kesemutan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "leher",
+        "label": "LOKASI"
+      },
+      {
+        "token": "lengan kanan",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kenapa-leher-dan-lengan-nyeri-setelah-angkat-berat-dan-bagaimana"
+  },
+  {
+    "text": "Selamat siang dok, saya perempuan usia 40 tahun, didiagnosis HNP di bagian pinggang beberapa waktu lalu. Saya dengar sekarang ada teknik terbaru untuk pengobatan HNP, selain operasi terbuka. Bisa dijelaskan apa saja metode terbaru yang sekarang tersedia, dan apakah lebih aman serta efektif dibandingkan teknik lama?",
+    "annotations": [
+      {
+        "token": "HNP",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "pinggang",
+        "label": "LOKASI"
+      },
+      {
+        "token": "beberapa waktu lalu",
+        "label": "DURASI"
+      },
+      {
+        "token": "operasi terbuka",
+        "label": "TINDAKAN"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-saja-teknik-terbaru-pengobatan-hnp-saat-ini-"
   }
 ]
