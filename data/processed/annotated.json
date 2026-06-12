@@ -8650,5 +8650,345 @@
       }
     ],
     "url": "https://www.alodokter.com/komunitas/topic/apa-saja-teknik-terbaru-pengobatan-hnp-saat-ini-"
+  },
+  {
+    "text": "Siang, Dok, mau konsultasi mengenai perawatan pasien preeklamsia pascapersalinan. Saya usia 37 tahun, baru melahirkan sekitar seminggu lalu dan sebelumnya didiagnosis preeklamsia. Setelah melahirkan, tekanan darah saya kadang masih tinggi dan kadang muncul sakit kepala. Sebenarnya, bagaimana perawatan yang tepat untuk ibu dengan riwayat preeklamsia setelah melahirkan? Apa saja yang harus dipantau dan dilakukan agar tidak terjadi komplikasi?",
+    "annotations": [
+      {
+        "token": "preeklamsia",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "seminggu",
+        "label": "DURASI"
+      },
+      {
+        "token": "tekanan darah tinggi",
+        "label": "GEJALA"
+      },
+      {
+        "token": "sakit kepala",
+        "label": "GEJALA"
+      },
+      {
+        "token": "preeklamsia",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-perawatan-preeklamsia-setelah-melahirkan-"
+  },
+  {
+    "text": "Dok, saya sedang hamil 7 bulan dan didiagnosis diabetes gestasional. Saya ingin tanya, apakah aman melakukan senam hamil untuk penderita diabetes gestasional? Jenis gerakan apa saja yang disarankan, dan adakah hal-hal khusus yang perlu saya perhatikan agar gula darah tetap terkontrol selama senam?",
+    "annotations": [
+      {
+        "token": "hamil",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "7 bulan",
+        "label": "DURASI"
+      },
+      {
+        "token": "diabetes gestasional",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "senam hamil",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "gula darah",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/amankah-senam-hamil-untuk-penderita-diabetes-gestasional-"
+  },
+  {
+    "text": "Halo, Dokter. Saya pria usia 45 tahun, sudah 5 tahun mengidap diabetes dan belakangan ini sering merasa penglihatan saya jadi buram, kadang seperti ada bayangan melayang. Apakah perubahan penglihatan seperti ini memang sering terjadi pada penderita diabetes? Apa yang harus saya lakukan agar kondisi mata saya tidak makin parah?",
+    "annotations": [
+      {
+        "token": "5 tahun",
+        "label": "DURASI"
+      },
+      {
+        "token": "diabetes",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "belakangan ini",
+        "label": "DURASI"
+      },
+      {
+        "token": "buram",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bayangan melayang",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-diabetes-bisa-menyebabkan-bayangan-di-mata-"
+  },
+  {
+    "text": "Dok, mau tanya soal ketombe dan kebotakan. Saya ibu rumah tangga usia 36 tahun. Saya sudah lama mengalami ketombe yang sangat parah, kulit kepala sering gatal, bersisik, dan rambut saya jadi rontok banyak. Sekarang mulai terlihat area kepala yang menipis bahkan hampir botak di beberapa bagian. Apakah ketombe parah memang bisa menyebabkan kebotakan? Bagaimana cara mengatasinya supaya rambut bisa tumbuh kembali dan ketombe hilang?",
+    "annotations": [
+      {
+        "token": "ketombe",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "kebotakan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "kulit kepala",
+        "label": "LOKASI"
+      },
+      {
+        "token": "gatal",
+        "label": "GEJALA"
+      },
+      {
+        "token": "bersisik",
+        "label": "GEJALA"
+      },
+      {
+        "token": "rambut rontok",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bisakah-rambut-tumbuh-kembali-setelah-botak-karena-ketombe-"
+  },
+  {
+    "text": "Selamat siang dok, saya laki-laki usia 45 tahun dengan riwayat asam urat tinggi. Dokter menyarankan minum allopurinol setiap hari. Apakah obat ini langsung bisa menurunkan kadar asam urat, dan berapa lama biasanya terlihat hasilnya? Bolehkah berhenti minum allopurinol kalau kadar asam urat sudah normal?",
+    "annotations": [
+      {
+        "token": "asam urat",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "allopurinol",
+        "label": "OBAT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/berapa-lama-allopurinol-dapat-menurunkan-kadar-asam-urat-"
+  },
+  {
+    "text": "Hai, Dok, saya mau tanya perihal suplemen kolagen.Saya sering lihat produk suplemen kolagen di pasaran, ada yang tulisannya kolagen hidrolisat dan ada juga yang kolagen biasa. Sebenarnya, apa perbedaan kolagen hidrolisat dengan kolagen biasa untuk kesehatan kulit? Mana yang lebih efektif untuk menjaga elastisitas dan kelembapan kulit?",
+    "annotations": [
+      {
+        "token": "kolagen",
+        "label": "OBAT"
+      },
+      {
+        "token": "kolagen hidrolisat",
+        "label": "OBAT"
+      },
+      {
+        "token": "kulit",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-bedanya-kolagen-hidrolisat-dan-kolagen-biasa-untuk-kulit-"
+  },
+  {
+    "text": "Selamat siang, Dok, saya perempuan usia 26 tahun, mau tanya seputar histerosalpingografi. Saya sedang menjalani program hamil dan dokter menyarankan pemeriksaan histerosalpingografi (HSG) karena dicurigai ada penyumbatan di tuba falopi. Bisa dijelaskan bagaimana prosedur HSG ini dilakukan, apakah sakit, dan seberapa akurat hasilnya untuk mendeteksi sumbatan tuba?",
+    "annotations": [
+      {
+        "token": "histerosalpingografi",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "program hamil",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "histerosalpingografi (HSG)",
+        "label": "TINDAKAN"
+      },
+      {
+        "token": "penyumbatan",
+        "label": "PENYAKIT"
+      },
+      {
+        "token": "tuba falopi",
+        "label": "LOKASI"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-prosedur-hsg-untuk-deteksi-sumbatan-tuba-"
+  },
+  {
+    "text": "Dok, saya mau tanya, sudah beberapa hari ini kulit di area selangkangan saya mengelupas, terasa agak gatal dan kadang perih terutama saat berkeringat. Tidak ada luka terbuka, tapi kulit jadi tampak kering dan bersisik. Apa penyebab kulit mengelupas di selangkangan dan bagaimana cara mengatasinya agar tidak makin parah?",
+    "annotations": [
+      {
+        "token": "beberapa hari",
+        "label": "DURASI"
+      },
+      {
+        "token": "selangkangan",
+        "label": "LOKASI"
+      },
+      {
+        "token": "mengelupas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "gatal",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perih",
+        "label": "GEJALA"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-kulit-selangkangan-mengelupas-dan-bagaimana-mengatasinya-"
+  },
+  {
+    "text": "Halo, Dokter. Saya perempuan usia 25 tahun, baru-baru ini beraktivitas di luar ruangan cukup lama dan punggung saya jadi kemerahan, perih, dan terasa panas, sepertinya kena sunburn. Apakah ada salep khusus yang bisa digunakan untuk mengobati sunburn di punggung agar cepat sembuh? Salep apa yang aman dan efektif untuk meredakan rasa perih dan mencegah kulit mengelupas?",
+    "annotations": [
+      {
+        "token": "punggung",
+        "label": "LOKASI"
+      },
+      {
+        "token": "kemerahan",
+        "label": "GEJALA"
+      },
+      {
+        "token": "perih",
+        "label": "GEJALA"
+      },
+      {
+        "token": "terasa panas",
+        "label": "GEJALA"
+      },
+      {
+        "token": "sunburn",
+        "label": "PENYAKIT"
+      }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/salep-apa-yang-aman-untuk-mengobati-sunburn-di-punggung-"
+  },
+  {
+    "text": "Dok, saya pria usia 42 tahun, berencana menjalani operasi kecil untuk mengangkat keratosis seboroik di wajah. Saya ingin tahu, apa saja efek samping yang mungkin terjadi setelah operasi keratosis seboroik? Apakah ada risiko bekas luka, infeksi, atau komplikasi lain yang perlu saya waspadai?",
+    "annotations": [
+      { "token": "operasi kecil", "label": "TINDAKAN" },
+      { "token": "keratosis seboroik", "label": "PENYAKIT" },
+      { "token": "wajah", "label": "LOKASI" },
+      { "token": "operasi keratosis seboroik", "label": "TINDAKAN" },
+      { "token": "bekas luka", "label": "GEJALA" },
+      { "token": "infeksi", "label": "PENYAKIT" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-efek-samping-operasi-keratosis-seboroik-"
+  },
+  {
+    "text": "Selamat siang, Dok. Saya ibu rumah tangga usia 31 tahun, sudah 3 bulan terakhir pakai KB suntik 1 bulan. Akhir-akhir ini sering muncul flek atau bercak darah di luar jadwal haid, kadang cuma sedikit tapi cukup sering. Apakah flek seperti ini normal saat pakai KB suntik 1 bulan, dan apa yang bisa dilakukan agar flek tidak terus-menerus muncul?",
+    "annotations": [
+      { "token": "3 bulan terakhir", "label": "DURASI" },
+      { "token": "KB suntik 1 bulan", "label": "TINDAKAN" },
+      { "token": "Akhir-akhir ini", "label": "DURASI" },
+      { "token": "flek", "label": "GEJALA" },
+      { "token": "bercak darah", "label": "GEJALA" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/kenapa-sering-kleuar-flek-saat-pakai-kb-suntik-1-bulan-"
+  },
+  {
+    "text": "Selamat siang, Dok, mau tanya. Ayah saya usia 54 tahun. Luka di kaki beliau sudah hampir sebulan tidak menutup, malah makin nyeri kalau dipakai berjalan. Ayah juga punya riwayat diabetes. Apakah luka sulit sembuh ini ada hubungannya dengan diabetes beliau? Apa langkah terbaik agar luka cepat sembuh dan tidak bertambah parah?",
+    "annotations": [
+      { "token": "Luka", "label": "GEJALA" },
+      { "token": "kaki", "label": "LOKASI" },
+      { "token": "hampir sebulan", "label": "DURASI" },
+      { "token": "nyeri", "label": "GEJALA" },
+      { "token": "diabetes", "label": "PENYAKIT" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/luka-kaki-sulit-sembuh-dan-nyeri-saat-berjalan-pada-penderita"
+  },
+  {
+    "text": "Halo, Dokter, mau tanya seputar hiperkalemia dan gangguan irama jantung. Ayah saya usia 62 tahun, punya riwayat gagal ginjal dan baru-baru ini dokter bilang kadar kaliumnya tinggi. Kami jadi khawatir karena katanya bisa menyebabkan gangguan irama jantung. Gejala apa saja yang biasanya muncul, dan bagaimana penanganan darurat jika terjadi gangguan irama jantung karena hiperkalemia?",
+    "annotations": [
+      { "token": "hiperkalemia", "label": "PENYAKIT" },
+      { "token": "gangguan irama jantung", "label": "PENYAKIT" },
+      { "token": "gagal ginjal", "label": "PENYAKIT" },
+      { "token": "baru-baru ini", "label": "DURASI" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-hiperkalemia-sebabkan-gangguan-irama-jantung--dan-apa-penanganannya-"
+  },
+  {
+    "text": "Alo, Dok, selamat siang. Saya laki-laki usia 36 tahun, baru-baru ini didiagnosis hipogonadisme, tapi dokter bilang ini bisa bersifat sementara atau permanen. Apa sih perbedaan antara hipogonadisme sementara dan permanen? Faktor apa saja yang menentukan apakah kondisi ini bisa membaik atau harus diterapi seumur hidup?",
+    "annotations": [
+      { "token": "baru-baru ini", "label": "DURASI" },
+      { "token": "hipogonadisme", "label": "PENYAKIT" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-yang-dimaksud-hipogonadisme-sementara-dan-hipogonadisme-permanen-"
+  },
+  {
+    "text": "Pagi, Dok, saya mau tanya soal speech delay. Anak saya laki-laki usia 4 tahun baru bisa mengucapkan kata-kata sederhana, belum bisa membuat kalimat panjang. Sering juga sulit memahami instruksi sederhana. Apakah speech delay ini bisa berpengaruh pada perkembangan lain, dan sebaiknya langkah apa yang harus saya ambil?",
+    "annotations": [
+      { "token": "speech delay", "label": "PENYAKIT" },
+      { "token": "sulit memahami instruksi sederhana", "label": "GEJALA" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-speech-delay-memengaruhi-perkembangan-anak-"
+  },
+  {
+    "text": "Halo, Dokter, selamat pagi. Saya wanita umur 35 tahun, punya riwayat kolesterol tinggi. Banyak yang menyarankan konsumsi suplemen omega-3 untuk membantu menurunkan kolesterol. Apakah benar omega-3 efektif untuk itu, dan apakah ada pantangan atau kondisi medis yang harus diperhatikan sebelum mengonsumsi suplemen ini?",
+    "annotations": [
+      { "token": "kolesterol tinggi", "label": "PENYAKIT" },
+      { "token": "omega-3", "label": "OBAT" },
+      { "token": "suplemen omega-3", "label": "OBAT" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-konsumsi-suplemen-omega-3-bisa-menurunkan-kolesterol-"
+  },
+  {
+    "text": "Alo, Dokter, saya laki-laki usia 33 tahun, mau tanya soal penggunaan suplemen astaxanthin. Belakangan ini saya sering melihat suplemen astaxanthin dijual bebas. Saya punya alergi makanan laut dan asma. Apakah astaxanthin aman untuk orang dengan alergi atau masalah pernapasan seperti asma? Adakah kontraindikasi khusus yang perlu diperhatikan sebelum konsumsi?",
+    "annotations": [
+      { "token": "astaxanthin", "label": "OBAT" },
+      { "token": "Belakangan ini", "label": "DURASI" },
+      { "token": "alergi makanan laut", "label": "PENYAKIT" },
+      { "token": "asma", "label": "PENYAKIT" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apakah-astaxanthin-aman-untuk-penderita-asma-dan-alergi-makanan-laut-"
+  },
+  {
+    "text": "Hai, Dokter, mau konsul soal nyeri haid. Saya perempuan usia 23 tahun, setiap menstruasi saya selalu mengalami nyeri pinggul, bahkan kadang terasa sampai ke perut bagian bawah. Nyeri ini biasanya muncul beberapa jam sebelum haid dan baru mereda setelah hari ketiga. Apakah kondisi ini wajar, dan apa yang bisa dilakukan untuk mengurangi nyeri pinggul saat haid?",
+    "annotations": [
+      { "token": "nyeri haid", "label": "GEJALA" },
+      { "token": "nyeri pinggul", "label": "GEJALA" },
+      { "token": "pinggul", "label": "LOKASI" },
+      { "token": "perut bagian bawah", "label": "LOKASI" },
+      { "token": "beberapa jam sebelum haid", "label": "DURASI" },
+      { "token": "hari ketiga", "label": "DURASI" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/nyeri-pinggul-saat-haid--apa-solusinya-"
+  },
+  {
+    "text": "Halo, selamat pagi, Dokter. Saya laki-laki usia 19 tahun, mau tanya soal karang gigi. Beberapa hari lalu karang gigi saya lepas sendiri saat sedang makan. Tidak ada rasa sakit, tapi dalemnya berasa tajam kena lidah. Apakah karang gigi yang lepas sendiri bisa menyebabkan masalah pada gusi atau gigi di sekitarnya? Perlu dibersihin ke dokter atau bagaimana, Dok?",
+    "annotations": [
+      { "token": "karang gigi", "label": "PENYAKIT" },
+      { "token": "Beberapa hari lalu", "label": "DURASI" },
+      { "token": "berasa tajam", "label": "GEJALA" },
+      { "token": "lidah", "label": "LOKASI" },
+      { "token": "gusi", "label": "LOKASI" },
+      { "token": "gigi", "label": "LOKASI" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/karang-gigi-lepas-sendiri-saat-makan--perlu-bersihin-ke-dokter-"
+  },
+  {
+    "text": "Selamat pagi, Dok. Saya perempuan usia 32 tahun. Di bagian putih mata saya muncul benjolan kecil berwarna kekuningan, sudah sekitar seminggu ini. Benjolan tidak sakit, tapi kadang terasa mengganjal kalau berkedip. Apakah kondisi ini berbahaya dan perlu segera diperiksakan ke dokter mata? Kira-kira apa penyebabnya dan bagaimana cara mengatasinya?",
+    "annotations": [
+      { "token": "putih mata", "label": "LOKASI" },
+      { "token": "benjolan kecil berwarna kekuningan", "label": "GEJALA" },
+      { "token": "sekitar seminggu ini", "label": "DURASI" },
+      { "token": "terasa mengganjal", "label": "GEJALA" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/apa-penyebab-benjolan-kuning-di-putih-mata-dan-bagaimana-mengatasinya-"
+  },
+  {
+    "text": "Selamat pagi, Dok, mau tanya. Bayi saya berusia 3 bulan, kepalanya agak peyang di bagian kanan. Bayi saya memang lebih suka tidur menghadap kanan. Apakah ada cara khusus supaya bentuk kepalanya bisa kembali bulat, dan apakah kondisi ini berbahaya untuk perkembangan otaknya?",
+    "annotations": [
+      { "token": "kepalanya agak peyang", "label": "GEJALA" },
+      { "token": "bagian kanan", "label": "LOKASI" },
+      { "token": "otaknya", "label": "LOKASI" }
+    ],
+    "url": "https://www.alodokter.com/komunitas/topic/bagaimana-cara-memperbaiki-kepala-bayi-yang-peyang-"
   }
 ]
