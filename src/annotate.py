@@ -14,8 +14,6 @@ Label yang tersedia:
 - GEJALA: keluhan atau gejala yang dirasakan pasien secara subjektif (contoh: nyeri, pusing, mual, gatal, sesak napas)
 - PENYAKIT: nama penyakit atau kondisi medis yang didiagnosis atau disebutkan (contoh: diabetes, hipertensi, maag, ketombe)
 - OBAT: nama obat atau suplemen yang dikonsumsi (contoh: paracetamol, ibuprofen, biotin, amlodipin)
-- DURASI: rentang waktu keluhan berlangsung (contoh: tiga hari, sejak kemarin, beberapa minggu terakhir, akhir-akhir ini)
-- LOKASI: bagian tubuh yang terdampak (contoh: perut, kepala, lutut, kulit kepala, tuba falopi)
 - TINDAKAN: prosedur medis atau tindakan yang dilakukan atau disarankan (contoh: operasi, biopsi, HSG, vaksin, kemoterapi)
 
 Aturan penting:
@@ -26,8 +24,7 @@ Aturan penting:
 - Jangan anotasi kekhawatiran hipotetis sebagai gejala (contoh: "takut sakit" -- sakit tidak dianotasi)
 - Jangan duplikasi token yang sama, pilih yang paling spesifik
 - Kalau tidak ada entitas yang relevan, kembalikan annotations sebagai array kosong
-- Usia pasien bukan DURASI
-- Fase kehamilan (trimester, bulan kehamilan) bukan DURASI
+- TINDAKAN hanya mencakup prosedur medis yang dilakukan oleh atau kepada pasien oleh tenaga medis, seperti operasi, biopsi, vaksinasi, terapi, pemeriksaan laboratorium, dan tindakan klinik lainnya. Kegiatan sehari-hari seperti BAB, tidur, olahraga, makan, dan aktivitas non-medis lainnya BUKAN TINDAKAN.
 
 Format output (JSON saja, tanpa markdown, tanpa penjelasan):
 {
@@ -40,7 +37,7 @@ Format output (JSON saja, tanpa markdown, tanpa penjelasan):
 
 Contoh:
 Input: "Sudah tiga hari perut saya nyeri dan mual, sudah minum paracetamol tapi belum membaik."
-Output: {"text": "Sudah tiga hari perut saya nyeri dan mual, sudah minum paracetamol tapi belum membaik.", "annotations": [{"token": "tiga hari", "label": "DURASI"}, {"token": "perut", "label": "LOKASI"}, {"token": "nyeri", "label": "GEJALA"}, {"token": "mual", "label": "GEJALA"}, {"token": "paracetamol", "label": "OBAT"}], "url": "url sumber keluhan"}
+Output: {"text": "Sudah tiga hari perut saya nyeri dan mual, sudah minum paracetamol tapi belum membaik.", "annotations": [{"token": "nyeri", "label": "GEJALA"}, {"token": "mual", "label": "GEJALA"}, {"token": "paracetamol", "label": "OBAT"}], "url": "url sumber keluhan"}
 
 Sekarang anotasi teks berikut dan output JSON saja: 
 """
