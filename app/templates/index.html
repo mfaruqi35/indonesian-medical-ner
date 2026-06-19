@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indonesian Medical NER Demo</title>
+    <!-- Google Fonts Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../static/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#" class="brand-container">
+        <!-- Medical Suitcase Icon with Medical Cross -->
+        <svg
+          class="brand-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+          <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          <line x1="12" y1="11" x2="12" y2="17"></line>
+          <line x1="9" y1="14" x2="15" y2="14"></line>
+        </svg>
+        <span>Indonesian Medical NER Demo</span>
+      </a>
+
+      <div class="nav-actions">
+        <button class="nav-icon-btn" title="Settings">
+          <!-- Settings Gear Icon -->
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="12" cy="12" r="3"></circle>
+            <path
+              d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="main-container">
+      <!-- Hero Header -->
+      <header class="hero-section">
+        <h1 class="main-title">Keluhan Medis Bahasa Indonesia</h1>
+        <p class="main-subtitle">
+          Extract medical entities from patient complaints using Indonesian
+          Medical NER. Our AI system identifies symptoms, medications, and
+          clinical actions with high precision.
+        </p>
+      </header>
+
+      <!-- Card 1: Input Section -->
+      <section class="card">
+        <div class="card-header">
+          <!-- Checklist with Stethoscope lines -->
+          <svg
+            class="card-header-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M14 6h7M14 12h7M14 18h7"></path>
+            <path
+              d="M3 10a4 4 0 0 0 4 4h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5"
+            ></path>
+            <circle cx="6" cy="6" r="3"></circle>
+          </svg>
+          <span>Masukkan Keluhan Pasien</span>
+        </div>
+
+        <div class="input-section">
+          <div class="textarea-container">
+            <textarea
+              id="input-text"
+              class="input-textarea"
+              placeholder="Contoh: Saya mengalami nyeri perut dan mual selama beberapa hari, serta sudah minum paracetamol."
+            ></textarea>
+          </div>
+          <div class="action-bar">
+            <button id="btn-analyze" class="btn btn-primary">
+              <!-- Stethoscope Icon -->
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 10a6 6 0 0 0 12 0v-4a2 2 0 0 0-4 0v4a2 2 0 0 1-4 0V4a2 2 0 0 0-4 0v6Z"
+                ></path>
+                <circle cx="16" cy="18" r="4"></circle>
+                <path d="M16 14v1"></path>
+              </svg>
+              <span>Analisis Keluhan</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results Panel (Visible by default, empty state on page load) -->
+      <div id="results-panel" class="results-container" style="display: grid">
+        <!-- Left Card: Highlighted Entities -->
+        <section class="card">
+          <div class="card-header">
+            <!-- Sparkles Icon -->
+            <svg
+              class="card-header-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"
+              />
+            </svg>
+            <span>Highlighted Entities</span>
+          </div>
+
+          <!-- Empty State View -->
+          <div id="highlight-empty-state" class="highlight-empty-box">
+            <svg
+              class="empty-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#737688"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M3 16.5L8.5 11l4 4L21 6.5" />
+              <circle cx="16" cy="14" r="4" fill="#fbf8ff" />
+              <line x1="19" y1="17" x2="22" y2="20" />
+            </svg>
+            <p class="empty-text">
+              Belum ada analisis. Masukkan keluhan pasien di atas untuk melihat
+              entitas yang terdeteksi.
+            </p>
+          </div>
+
+          <!-- Filled State View (Hidden by default) -->
+          <div
+            id="highlight-filled-state"
+            style="
+              display: none;
+              flex-direction: column;
+              gap: var(--spacing-md);
+            "
+          >
+            <div id="highlight-display" class="highlight-display-box"></div>
+            <div class="highlight-actions">
+              <button id="btn-copy-json" class="btn btn-secondary">
+                <!-- Copy Icon -->
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path
+                    d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                  ></path>
+                </svg>
+                <span>Salin JSON</span>
+              </button>
+              <button id="btn-download" class="btn btn-secondary">
+                <!-- Download Icon -->
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Unduh Hasil</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Right Card: Extracted Entities Table -->
+        <section class="card" style="justify-content: space-between">
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: var(--spacing-md);
+            "
+          >
+            <div class="card-header">
+              <!-- Database cylinder stack icon -->
+              <svg
+                class="card-header-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+              </svg>
+              <span>Entitas yang Diekstrak</span>
+            </div>
+
+            <div class="table-container">
+              <table class="extracted-table">
+                <thead>
+                  <tr>
+                    <th style="width: 160px">Tipe</th>
+                    <th>Hasil</th>
+                    <th style="text-align: right; width: 80px">Conf.</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="entity-type-cell gejala">GEJALA</td>
+                    <td id="res-gejala" class="entity-result-cell entity-empty">
+                      Belum ada data
+                    </td>
+                    <td id="conf-gejala" class="entity-conf-cell">-</td>
+                  </tr>
+                  <tr>
+                    <td class="entity-type-cell lokasi">LOKASI</td>
+                    <td id="res-lokasi" class="entity-result-cell entity-empty">
+                      Belum ada data
+                    </td>
+                    <td id="conf-lokasi" class="entity-conf-cell">-</td>
+                  </tr>
+                  <tr>
+                    <td class="entity-type-cell penyakit">PENYAKIT</td>
+                    <td
+                      id="res-penyakit"
+                      class="entity-result-cell entity-empty"
+                    >
+                      Belum ada data
+                    </td>
+                    <td id="conf-penyakit" class="entity-conf-cell">-</td>
+                  </tr>
+                  <tr>
+                    <td class="entity-type-cell obat">OBAT</td>
+                    <td id="res-obat" class="entity-result-cell entity-empty">
+                      Belum ada data
+                    </td>
+                    <td id="conf-obat" class="entity-conf-cell">-</td>
+                  </tr>
+                  <tr>
+                    <td class="entity-type-cell tindakan">TINDAKAN</td>
+                    <td
+                      id="res-tindakan"
+                      class="entity-result-cell entity-empty"
+                    >
+                      Belum ada data
+                    </td>
+                    <td id="conf-tindakan" class="entity-conf-cell">-</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="table-actions">
+            <button id="btn-reset" class="btn btn-disabled-style btn-pill">
+              <!-- Refresh Arrow Icon -->
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline points="23 4 23 10 17 10"></polyline>
+                <polyline points="1 20 1 14 7 14"></polyline>
+                <path
+                  d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"
+                ></path>
+              </svg>
+              <span>Analisis Keluhan Lain</span>
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <span>© 2024 Medical AI Systems. All rights reserved.</span>
+      <div class="footer-links">
+        <a href="#" id="link-analyze-another">Analyze Another Complaint</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Help Center</a>
+      </div>
+    </footer>
+
+    <!-- Toast Notification element -->
+    <div id="toast" class="toast">JSON disalin ke clipboard!</div>
+
+    <!-- JavaScript script -->
+    <script src="/static/js/app.js"></script>
+  </body>
+</html>
