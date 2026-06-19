@@ -28,48 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const resTindakan = document.getElementById('res-tindakan');
   const confTindakan = document.getElementById('conf-tindakan');
 
-  // Local storage for current annotation results
+  // Local storage for current API prediction results
   let currentResults = null;
-
-  // Simple dictionary of common medical terms mapped to categories
-  const entityDict = [
-    { token: 'nyeri perut', label: 'GEJALA', normalized: 'nyeri perut' },
-    { token: 'mual', label: 'GEJALA', normalized: 'mual' },
-    { token: 'demam', label: 'GEJALA', normalized: 'demam' },
-    { token: 'pusing', label: 'GEJALA', normalized: 'pusing' },
-    { token: 'batuk', label: 'GEJALA', normalized: 'batuk' },
-    { token: 'sesak napas', label: 'GEJALA', normalized: 'sesak napas' },
-    { token: 'gatal', label: 'GEJALA', normalized: 'gatal' },
-    { token: 'nyeri', label: 'GEJALA', normalized: 'nyeri' },
-    
-    { token: 'paracetamol', label: 'OBAT', normalized: 'paracetamol' },
-    { token: 'ibuprofen', label: 'OBAT', normalized: 'ibuprofen' },
-    { token: 'biotin', label: 'OBAT', normalized: 'biotin' },
-    { token: 'amlodipin', label: 'OBAT', normalized: 'amlodipin' },
-    { token: 'amoxicillin', label: 'OBAT', normalized: 'amoxicillin' },
-    { token: 'antimo', label: 'OBAT', normalized: 'antimo' },
-    
-    { token: 'perut', label: 'LOKASI', normalized: 'perut' },
-    { token: 'kepala', label: 'LOKASI', normalized: 'kepala' },
-    { token: 'dada', label: 'LOKASI', normalized: 'dada' },
-    { token: 'tangan', label: 'LOKASI', normalized: 'tangan' },
-    { token: 'kaki', label: 'LOKASI', normalized: 'kaki' },
-    { token: 'kulit', label: 'LOKASI', normalized: 'kulit' },
-    
-    { token: 'diabetes', label: 'PENYAKIT', normalized: 'diabetes' },
-    { token: 'hipertensi', label: 'PENYAKIT', normalized: 'hipertensi' },
-    { token: 'maag', label: 'PENYAKIT', normalized: 'maag' },
-    { token: 'ketombe', label: 'PENYAKIT', normalized: 'ketombe' },
-    { token: 'asma', label: 'PENYAKIT', normalized: 'asma' },
-    { token: 'flu', label: 'PENYAKIT', normalized: 'flu' },
-    
-    { token: 'operasi', label: 'TINDAKAN', normalized: 'operasi' },
-    { token: 'biopsi', label: 'TINDAKAN', normalized: 'biopsi' },
-    { token: 'vaksin', label: 'TINDAKAN', normalized: 'vaksin' },
-    { token: 'kemoterapi', label: 'TINDAKAN', normalized: 'kemoterapi' },
-    { token: 'terapi', label: 'TINDAKAN', normalized: 'terapi' },
-    { token: 'rawat inap', label: 'TINDAKAN', normalized: 'rawat inap' }
-  ];
 
   // Helper: Show toast notification
   function showToast(message) {
@@ -80,75 +40,35 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 2500);
   }
 
-  // Core parsing and highlighting logic
-  function performAnalysis(text) {
-    if (!text.trim()) {
-      // If empty, fall back to the reference text
-      text = "Saya mengalami nyeri perut dan mual selama beberapa hari, serta sudah minum paracetamol.";
-      inputText.value = text;
-    }
+  // Core render function using actual API response offsets
+  function renderPrediction(text, entities) {
+    // Sort entities by starting index to prevent overlap formatting issues
+    entities.sort((a, b) => a.start - b.start);
 
-    // Sort dictionary by token length descending to match longer phrases first
-    const sortedDict = [...entityDict].sort((a, b) => b.token.length - a.token.length);
-
-    // Extract matches
-    const annotations = [];
-    const lowerText = text.toLowerCase();
-
-    // Track matched ranges to prevent overlapping matches
-    const matchedRanges = [];
-
-    for (const item of sortedDict) {
-      let startIndex = 0;
-      while ((startIndex = lowerText.indexOf(item.normalized, startIndex)) !== -1) {
-        const endIndex = startIndex + item.token.length;
-        
-        const overlaps = matchedRanges.some(range => 
-          (startIndex >= range.start && startIndex < range.end) || 
-          (endIndex > range.start && endIndex <= range.end) ||
-          (startIndex <= range.start && endIndex >= range.end)
-        );
-
-        if (!overlaps) {
-          const originalToken = text.substring(startIndex, endIndex);
-          annotations.push({
-            token: originalToken,
-            label: item.label,
-            start: startIndex,
-            end: endIndex
-          });
-          matchedRanges.push({ start: startIndex, end: endIndex });
-        }
-        
-        startIndex += item.token.length;
-      }
-    }
-
-    // Sort annotations by starting index
-    annotations.sort((a, b) => a.start - b.start);
-
-    // Build Highlighted HTML
+    // Build Highlighted HTML by slicing original text
     let htmlContent = '';
     let lastIdx = 0;
 
-    annotations.forEach(ann => {
-      // Add preceding plain text
-      htmlContent += escapeHTML(text.substring(lastIdx, ann.start));
-      
-      // Add marked entity HTML
-      const labelClass = `entity-${ann.label.toLowerCase()}`;
-      htmlContent += `<mark class="entity-mark ${labelClass}">` +
-                     `${escapeHTML(ann.token)}` +
-                     `<span class="entity-badge">${ann.label}</span>` +
-                     `</mark>`;
-      
-      lastIdx = ann.end;
+    entities.forEach(ann => {
+      // Prevent overlaps and indices out of bounds
+      if (ann.start >= lastIdx && ann.end <= text.length) {
+        // Add preceding text
+        htmlContent += escapeHTML(text.substring(lastIdx, ann.start));
+        
+        // Add highlighted word span
+        const labelClass = `entity-${ann.label.toLowerCase()}`;
+        htmlContent += `<mark class="entity-mark ${labelClass}">` +
+                       `${escapeHTML(ann.text)}` +
+                       `<span class="entity-badge">${ann.label}</span>` +
+                       `</mark>`;
+        lastIdx = ann.end;
+      }
     });
     
     htmlContent += escapeHTML(text.substring(lastIdx));
     highlightDisplay.innerHTML = htmlContent;
 
-    // Categorize extracted tokens
+    // Group predictions for table
     const categorized = {
       GEJALA: [],
       LOKASI: [],
@@ -156,21 +76,39 @@ document.addEventListener('DOMContentLoaded', () => {
       OBAT: [],
       TINDAKAN: []
     };
+    
+    const scores = {
+      GEJALA: [],
+      LOKASI: [],
+      PENYAKIT: [],
+      OBAT: [],
+      TINDAKAN: []
+    };
 
-    annotations.forEach(ann => {
-      if (categorized[ann.label]) {
-        if (!categorized[ann.label].includes(ann.token)) {
-          categorized[ann.label].push(ann.token);
+    entities.forEach(ann => {
+      const labelUpper = ann.label.toUpperCase();
+      if (categorized[labelUpper]) {
+        // Avoid duplicate words in the cell representation
+        if (!categorized[labelUpper].includes(ann.text)) {
+          categorized[labelUpper].push(ann.text);
         }
+        scores[labelUpper].push(ann.score);
       }
     });
 
-    // Helper to update table cell values and confidence
-    function updateTableCell(cellEl, confEl, valuesList, mockConfValue) {
+    // Helper to calculate confidence average score
+    function getAverageScore(scoreList) {
+      if (scoreList.length === 0) return '-';
+      const avg = scoreList.reduce((a, b) => a + b, 0) / scoreList.length;
+      return `${(avg * 100).toFixed(1)}%`;
+    }
+
+    // Helper to update table row content
+    function updateTableCell(cellEl, confEl, valuesList, scoreList) {
       if (valuesList.length > 0) {
         cellEl.textContent = valuesList.join(', ');
         cellEl.classList.remove('entity-empty');
-        confEl.textContent = mockConfValue;
+        confEl.textContent = getAverageScore(scoreList);
         confEl.classList.add('active-val');
       } else {
         cellEl.textContent = '-';
@@ -180,27 +118,24 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // Populate UI table cells with simulated confidence scores
-    updateTableCell(resGejala, confGejala, categorized.GEJALA, '98.2%');
-    updateTableCell(resLokasi, confLokasi, categorized.LOKASI, '95.5%');
-    updateTableCell(resPenyakit, confPenyakit, categorized.PENYAKIT, '94.0%');
-    updateTableCell(resObat, confObat, categorized.OBAT, '99.1%');
-    updateTableCell(resTindakan, confTindakan, categorized.TINDAKAN, '89.0%');
+    // Populate UI table cells
+    updateTableCell(resGejala, confGejala, categorized.GEJALA, scores.GEJALA);
+    updateTableCell(resLokasi, confLokasi, categorized.LOKASI, scores.LOKASI);
+    updateTableCell(resPenyakit, confPenyakit, categorized.PENYAKIT, scores.PENYAKIT);
+    updateTableCell(resObat, confObat, categorized.OBAT, scores.OBAT);
+    updateTableCell(resTindakan, confTindakan, categorized.TINDAKAN, scores.TINDAKAN);
 
-    // Store final JSON output structure
+    // Save payload for clipboard copy and download
     currentResults = {
       text: text,
-      annotations: annotations.map(ann => ({
-        token: ann.token,
-        label: ann.label
-      }))
+      entities: entities
     };
 
-    // Swap empty state with filled state on the left
+    // Swap empty state with filled state
     highlightEmptyState.style.display = 'none';
     highlightFilledState.style.display = 'flex';
 
-    // Activate reset button
+    // Activate reset button style
     btnReset.className = 'btn btn-secondary btn-pill';
 
     // Scroll results panel into view on mobile
@@ -227,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
     highlightDisplay.innerHTML = '';
     currentResults = null;
 
-    // Reset Table Elements to "Belum ada data" / "-"
+    // Reset Table Elements
     const cells = [resGejala, resLokasi, resPenyakit, resObat, resTindakan];
     const confs = [confGejala, confLokasi, confPenyakit, confObat, confTindakan];
     
@@ -247,8 +182,8 @@ document.addEventListener('DOMContentLoaded', () => {
     inputText.focus();
   }
 
-  // Event Listeners
-  btnAnalyze.addEventListener('click', () => {
+  // POST Request to predict entities via API
+  function analyzeText(text) {
     const originalContent = btnAnalyze.innerHTML;
     btnAnalyze.disabled = true;
     btnAnalyze.innerHTML = `
@@ -267,11 +202,42 @@ document.addEventListener('DOMContentLoaded', () => {
       document.head.appendChild(style);
     }
 
-    setTimeout(() => {
+    const apiHost = window.location.port === '8000' ? '' : 'http://127.0.0.1:8000';
+    fetch(`${apiHost}/predict`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ text: text })
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('API Request Failed');
+      }
+      return response.json();
+    })
+    .then(data => {
+      renderPrediction(data.text, data.entities);
+    })
+    .catch(err => {
+      console.error(err);
+      showToast('Gagal memproses data keluhan medis.');
+    })
+    .finally(() => {
       btnAnalyze.disabled = false;
       btnAnalyze.innerHTML = originalContent;
-      performAnalysis(inputText.value);
-    }, 450); // Natural quick loading state
+    });
+  }
+
+  // Event Listeners
+  btnAnalyze.addEventListener('click', () => {
+    let text = inputText.value.trim();
+    if (!text) {
+      // If empty, fall back to the reference text
+      text = "Saya mengalami nyeri perut dan mual selama beberapa hari, serta sudah minum paracetamol.";
+      inputText.value = text;
+    }
+    analyzeText(text);
   });
 
   btnReset.addEventListener('click', resetUI);

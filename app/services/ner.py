@@ -15,7 +15,9 @@ def predict_entities(text: str):
         entities.append({
             "text": item["word"],
             "label": item["entity_group"],
-            "score": round(float(item["score"]), 4)
+            "score": round(float(item["score"]), 4),
+            "start": int(item["start"]),
+            "end": int(item["end"])
         })
 
     return entities
