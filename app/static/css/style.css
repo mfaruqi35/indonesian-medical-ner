@@ -636,3 +636,338 @@ body {
     flex-direction: column;
   }
 }
+
+/* Drawer Backdrop/Overlay */
+.drawer-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.drawer-backdrop.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Drawer Panel (Wrapper container with visible overflow) */
+.drawer-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 75vw;
+  max-width: 750px;
+  z-index: 1001;
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: visible; /* Ensure the floating close button is not clipped */
+}
+
+.drawer-panel.open {
+  transform: translateX(0);
+}
+
+/* Inner Scrollable Container */
+.drawer-inner {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-surface-container-lowest);
+  box-shadow: -8px 0 32px rgba(15, 23, 42, 0.12);
+  overflow-y: auto; /* Enable scrolling for contents */
+}
+
+/* Floating Close/Open Button on Left boundary (Centered vertically, transitions between half-pill when closed and circular when open) */
+.btn-close-drawer {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  /* Default closed state: sticks out slightly on the right edge of the screen as a half-pill */
+  left: -32px; 
+  width: 56px;
+  height: 48px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #ffffff; /* White background */
+  border: 1px solid var(--color-outline-variant);
+  border-right: none;
+  box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 12px; /* Position chevron clearly on the visible left side */
+  cursor: pointer;
+  color: var(--color-primary); /* Blue chevron icon */
+  z-index: 1002;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-close-drawer:hover {
+  background-color: #f8fafc;
+  left: -36px; /* Stick out slightly more on hover */
+  box-shadow: -4px 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Open State overrides (When the drawer is open) */
+.drawer-panel.open .btn-close-drawer {
+  left: -24px; /* Centered exactly on the border line */
+  width: 48px;
+  height: 48px;
+  border-radius: var(--rounded-full);
+  border: 1px solid var(--color-outline-variant);
+  box-shadow: -4px 4px 16px rgba(0, 0, 0, 0.12);
+  justify-content: center;
+  padding-left: 0;
+}
+
+.drawer-panel.open .btn-close-drawer:hover {
+  background-color: #f8fafc;
+  transform: translateY(-50%) scale(1.08);
+  left: -24px;
+}
+
+.btn-close-drawer svg {
+  width: 24px;
+  height: 24px;
+  stroke-width: 3;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.drawer-panel.open .btn-close-drawer svg {
+  transform: rotate(180deg);
+}
+
+/* Drawer Internal Layout */
+.drawer-content {
+  padding: 40px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.drawer-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-on-surface);
+}
+
+.drawer-subtitle {
+  font-size: 14px;
+  color: var(--color-on-surface-variant);
+  margin-top: -8px;
+}
+
+.drawer-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  border-top: 1px solid #f1f5f9;
+  padding-top: var(--spacing-md);
+}
+
+.section-title-small {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-outline);
+}
+
+/* Info Cards Grid */
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-sm);
+}
+
+.info-card {
+  background-color: var(--color-surface-container-low);
+  padding: 16px;
+  border-radius: var(--rounded-default);
+  border: 1px solid #e2e8f0;
+}
+
+.info-card h4 {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-outline);
+  margin-bottom: 6px;
+}
+
+.info-card p {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-on-surface);
+}
+
+/* Metrics Summary Cards */
+.metrics-summary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--spacing-sm);
+}
+
+.metric-summary-card {
+  background-color: var(--color-surface-container-low);
+  border-radius: var(--rounded-default);
+  padding: 20px 16px;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.metric-summary-card .metric-val {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1.2;
+}
+
+.metric-summary-card .metric-lbl {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-outline);
+  margin-top: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Report Table inside Drawer */
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.report-table th,
+.report-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.report-table th {
+  background-color: var(--color-surface-container-low);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 0.05em;
+  color: var(--color-outline);
+}
+
+.report-table td.cat-cell {
+  font-weight: 700;
+}
+
+.report-table td.cat-cell.gejala { color: var(--entity-gejala-text); }
+.report-table td.cat-cell.lokasi { color: var(--entity-lokasi-text); }
+.report-table td.cat-cell.penyakit { color: var(--entity-penyakit-text); }
+.report-table td.cat-cell.obat { color: var(--entity-obat-text); }
+.report-table td.cat-cell.tindakan { color: var(--entity-tindakan-text); }
+
+.report-table td.num-cell {
+  text-align: right;
+  font-weight: 500;
+  color: var(--color-on-surface-variant);
+}
+
+.report-table td.highlight-f1 {
+  font-weight: 700;
+  color: var(--color-on-surface);
+}
+
+/* Confusion Matrix Image Container */
+.confusion-matrix-container {
+  width: 100%;
+  background-color: var(--color-surface-container-low);
+  border: 1px solid var(--color-outline-variant);
+  border-radius: var(--rounded-default);
+  padding: var(--spacing-sm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.confusion-matrix-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  object-fit: contain;
+}
+
+/* Mobile responsive drawer */
+@media (max-width: 992px) {
+  .drawer-panel {
+    width: 100vw;
+  }
+  .drawer-content {
+    padding: 32px 24px;
+  }
+  .metrics-summary-grid {
+    grid-template-columns: 1fr;
+  }
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+  .btn-close-drawer,
+  .drawer-panel.open .btn-close-drawer {
+    left: auto;
+    right: 24px;
+    top: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: var(--rounded-full);
+    border: 1px solid var(--color-outline-variant);
+    transform: none; /* Disable vertical center transform on mobile */
+    justify-content: center;
+    padding-left: 0;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  .btn-close-drawer:hover,
+  .drawer-panel.open .btn-close-drawer:hover {
+    transform: scale(1.08);
+    left: auto;
+  }
+  
+  .drawer-panel.open .btn-close-drawer svg {
+    transform: none; /* No rotation on mobile close button */
+  }
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff; /* White track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e2e8f0; /* Soft light grey thumb */
+  border-radius: 6px;
+  border: 3px solid #ffffff; /* Creates a padding effect around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #cbd5e1; /* Darker grey thumb on hover */
+}
+
+/* Firefox scrollbar styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #e2e8f0 #ffffff;
+}

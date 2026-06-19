@@ -229,56 +229,127 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Event Listeners
-  btnAnalyze.addEventListener('click', () => {
-    let text = inputText.value.trim();
-    if (!text) {
-      // If empty, fall back to the reference text
-      text = "Saya mengalami nyeri perut dan mual selama beberapa hari, serta sudah minum paracetamol.";
-      inputText.value = text;
-    }
-    analyzeText(text);
-  });
+  // Event Listeners (with null-checks to prevent halts if some elements are absent)
+  if (btnAnalyze) {
+    btnAnalyze.addEventListener('click', () => {
+      let text = inputText ? inputText.value.trim() : "";
+      if (!text) {
+        text = "Saya mengalami nyeri perut dan mual selama beberapa hari, serta sudah minum paracetamol.";
+        if (inputText) inputText.value = text;
+      }
+      analyzeText(text);
+    });
+  }
 
-  btnReset.addEventListener('click', resetUI);
-  linkAnalyzeAnother.addEventListener('click', (e) => {
-    e.preventDefault();
-    resetUI();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
+  if (btnReset) {
+    btnReset.addEventListener('click', resetUI);
+  }
+
+  if (linkAnalyzeAnother) {
+    linkAnalyzeAnother.addEventListener('click', (e) => {
+      e.preventDefault();
+      resetUI();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 
   // Copy JSON to Clipboard
-  btnCopyJson.addEventListener('click', () => {
-    if (!currentResults) return;
-    
-    const jsonString = JSON.stringify(currentResults, null, 2);
-    navigator.clipboard.writeText(jsonString)
-      .then(() => {
-        showToast('JSON berhasil disalin ke clipboard!');
-      })
-      .catch(err => {
-        console.error('Failed to copy: ', err);
-        showToast('Gagal menyalin JSON.');
-      });
-  });
+  if (btnCopyJson) {
+    btnCopyJson.addEventListener('click', () => {
+      if (!currentResults) return;
+      
+      const jsonString = JSON.stringify(currentResults, null, 2);
+      navigator.clipboard.writeText(jsonString)
+        .then(() => {
+          showToast('JSON berhasil disalin ke clipboard!');
+        })
+        .catch(err => {
+          console.error('Failed to copy: ', err);
+          showToast('Gagal menyalin JSON.');
+        });
+    });
+  }
 
   // Download JSON file
-  btnDownload.addEventListener('click', () => {
-    if (!currentResults) return;
+  if (btnDownload) {
+    btnDownload.addEventListener('click', () => {
+      if (!currentResults) return;
 
-    const jsonString = JSON.stringify(currentResults, null, 2);
-    const blob = new Blob([jsonString], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'ner_result.json';
-    document.body.appendChild(a);
-    a.click();
-    
-    setTimeout(() => {
-      document.body.removeChild(a);
-      window.URL.revokeObjectURL(url);
-    }, 0);
+      const jsonString = JSON.stringify(currentResults, null, 2);
+      const blob = new Blob([jsonString], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'ner_result.json';
+      document.body.appendChild(a);
+      a.click();
+      
+      setTimeout(() => {
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(url);
+      }, 0);
+    });
+  }
+
+  // Settings Drawer Toggle Logic
+  const btnSettings = document.getElementById('btn-settings');
+  const btnCloseDrawer = document.getElementById('btn-close-drawer');
+  const drawerBackdrop = document.getElementById('drawer-backdrop');
+  const drawerPanel = document.getElementById('drawer-panel');
+
+  function openDrawer() {
+    drawerBackdrop.classList.add('show');
+    drawerPanel.classList.add('open');
+    document.body.style.overflow = 'hidden'; // Prevent body scroll
+  }
+
+  function closeDrawer() {
+    drawerBackdrop.classList.remove('show');
+    drawerPanel.classList.remove('open');
+    document.body.style.overflow = ''; // Restore body scroll
+  }
+
+  console.log("Settings drawer initialized. Checking elements:", {
+    btnSettings: !!btnSettings,
+    btnCloseDrawer: !!btnCloseDrawer,
+    drawerBackdrop: !!drawerBackdrop,
+    drawerPanel: !!drawerPanel
   });
+
+  if (btnCloseDrawer && drawerBackdrop && drawerPanel) {
+    if (btnSettings) {
+      btnSettings.addEventListener('click', (e) => {
+        e.preventDefault();
+        console.log("Settings icon clicked, opening drawer");
+        openDrawer();
+      });
+    }
+
+    btnCloseDrawer.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (drawerPanel.classList.contains('open')) {
+        console.log("Button clicked, closing drawer");
+        closeDrawer();
+      } else {
+        console.log("Button clicked, opening drawer");
+        openDrawer();
+      }
+    });
+
+    drawerBackdrop.addEventListener('click', () => {
+      console.log("Backdrop clicked, closing drawer");
+      closeDrawer();
+    });
+
+    // Escape key press closes drawer
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        console.log("Escape pressed, closing drawer");
+        closeDrawer();
+      }
+    });
+  } else {
+    console.warn("Required drawer elements (close button, backdrop, panel) are missing on the DOM.");
+  }
 });
