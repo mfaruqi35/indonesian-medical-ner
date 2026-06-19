@@ -1,10 +1,27 @@
-from flask import Flask, render_template
+from fastapi import FastAPI
+from pydantic import BaseModel
 
-app = Flask(__name__)
+from app.services.ner import predict_entities
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+app = FastAPI()
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
+class PredictionRequest(BaseModel):
+    text: str
+
+
+@app.get("/")
+def root():
+    return {
+        "message": "Indonesian Medical NER API"
+    }
+
+
+@app.post("/predict")
+def predict(request: PredictionRequest):
+    entities = predict_entities(request.text)
+
+    return {
+        "text": request.text,
+        "entities": entities
+    }
