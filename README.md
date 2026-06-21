@@ -46,13 +46,11 @@ indonesian-medical-ner/
 │       └── scraped/
 │           └── alodokter.json # Raw scraped data from Alodokter.com
 ├── notebook/                 # Training Sandbox
-│   └── indonesian-medical-ner.ipynb # Fine-tuning model notebook
+│   └── indonesian-medical-ner.ipynb # Fine-tuning pipeline
 ├── src/                      # Research/Training Pipeline Scripts
 │   ├── annotate.py           # Semi-supervised dataset annotator
-│   ├── scraper.py            # Scraper utility for Alodokter
-│   ├── preprocess.py         # Scraping cleaning scripts
-│   ├── convert_bio.py        # Tokenizer BIO format converter
-│   └── train.py              # IndoBERT training script
+│   └── scraper.py            # Scraper utility for Alodokter
+│
 ├── .env                      # Environment configurations
 ├── .gitignore                # Git untracked pattern file
 ├── requirements.txt          # Python packages dependency list
