@@ -59,6 +59,66 @@ indonesian-medical-ner/
 
 ---
 
+## Installation & Running the Application
+
+### 1. Prerequisites
+Ensure you have **Python 3.8+** installed on your system.
+
+### 2. Clone the Repository
+```bash
+git clone https://github.com/your-username/indonesian-medical-ner.git
+cd indonesian-medical-ner
+```
+
+### 3. Setup Virtual Environment (Recommended)
+Creating a virtual environment ensures that the project dependencies do not interfere with your global Python installation.
+
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Linux/macOS:
+source venv/bin/activate
+# On Windows (Command Prompt):
+venv\Scripts\activate
+# On Windows (PowerShell):
+venv\Scripts\Activate.ps1
+```
+
+### 4. Install Dependencies
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+---
+
+## Running the Web App
+
+The application uses a **unified setup** where the backend (FastAPI) serves the frontend static pages (HTML, CSS, and JS) directly. There is no need to run a separate npm server or build process for the frontend.
+
+To run both the frontend and backend:
+
+#### Option A: Running with the startup script (Recommended)
+Simply execute the preconfigured `run.py` script:
+```bash
+python run.py
+```
+
+#### Option B: Running with Uvicorn directly
+Run the FastAPI application with Uvicorn:
+```bash
+uvicorn app.main:app --host 127.0.0.1 --port 5000 --reload
+```
+
+### Accessing the Application
+Once the server starts:
+*   **Frontend Dashboard**: Open your web browser and go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+*   **Backend API Documentation (Swagger)**: Go to [http://127.0.0.1:5000/docs](http://127.0.0.1:5000/docs) to test the API endpoints interactively.
+
+---
+
 ## API Documentation
 
 ### Analyze Complaint
