@@ -202,8 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.head.appendChild(style);
     }
 
-    const apiHost = window.location.port === '8000' ? '' : 'http://127.0.0.1:8000';
-    fetch(`${apiHost}/predict`, {
+    fetch('/predict', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
